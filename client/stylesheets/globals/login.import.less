@@ -1,0 +1,119 @@
+body.blank {
+  background-color: @color-background;
+}
+
+
+#login-page {
+  width: 80%;
+}
+
+.login-page-image img {
+  height: 60%;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.login-page-panel p {
+  margin-top: 20px;
+}
+
+@media (max-width: 991px) {
+  #login-page {
+    width: 75%;
+  }
+
+  .login-page-image img {
+    width: 50%;
+    padding-bottom: 20px;
+  } 
+
+  .login-page-panel p {
+    margin-top: 20px;
+  }
+}
+
+.login {
+    width: 100px;
+    margin-right: 40px;
+    margin-top: 100px;
+    margin-bottom: 28px;
+}
+
+@media(max-width: 768px) {
+.login {
+    width: 100px;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+}
+.login:hover,
+.login:focus,
+.login:active,
+.login.active {
+    width: 128px;
+    margin-bottom: 0px;
+}
+
+.login-panel p {
+    margin-top: 60px;
+}
+
+.login-container {
+  max-width: 420px;
+  margin:auto;
+  padding-top: 6%;
+}
+
+.register-container {
+  max-width: 720px;
+  margin:auto;
+  padding-top: 6%;
+}
+
+.lock-container {
+  max-width: 420px;
+  margin:auto;
+  padding-top: 6%;
+}
+
+.error-container {
+  max-width: 620px;
+  margin:auto;
+  padding-top: 6%;
+}
+
+.big-icon {
+  font-size: 120px;
+}
+
+.error-container h1 {
+  font-size: 44px;
+}
+
+.back-link {
+  float: left;
+  width: 100%;
+  margin: 10px;
+}
+
+@media(max-width: 420px) {
+  .login-container, .lock-container {
+    margin: auto 10px;
+  }
+}
+
+@media(max-width: 720px) {
+  .register-container {
+    margin: auto 10px;
+  }
+  .lock-container {
+    padding-top: 15%;
+  }
+}
+
+@media(max-width: 620px) {
+  .error-container {
+    margin: auto 10px;
+  }
+}

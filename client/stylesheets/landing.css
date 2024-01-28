@@ -1,0 +1,340 @@
+/*!
+ * Start Bootstrap - Freelancer Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+#landing p {
+    font-size: 20px;
+}
+
+#landing p.small {
+    font-size: 16px;
+}
+
+#landing .navbar-default .navbar-nav > li > a:hover,
+#landing .navbar-default .navbar-brand:hover,
+#landing .navbar-default .navbar-nav > li > a:focus, 
+#landing .navbar-default .navbar-brand:focus {
+    color: #8a1538;
+}
+
+#landing h1,
+#landing h2,
+#landing h3,
+#landing h4,
+#landing h5,
+#landing h6 {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+#landing .img-centered {
+    margin: 0 auto;
+}
+
+#landing header {
+    text-align: left;
+    color: #fff;
+    background: #8a1538;
+}
+
+#landing header .container {
+    padding-top: 100px;
+    padding-bottom: 0px;
+}
+
+#landing header img {
+    display: block;
+    margin: 0 auto 0px;
+    width: 400px;
+}
+
+#landing header .loginlanding {
+    display: block;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+#landing header .fa-stack {
+    width: 64px;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    margin-right: 26px;
+}
+
+#landing .fa-lg:hover { 
+    color: #fff; 
+}
+
+#landing header a, 
+#landing header a:hover,
+#landing header a:focus,
+#landing header a:active,
+#landing header a.active {
+    color: #fff;
+    
+}
+
+@media(min-width:768px) {
+    #landing header .container {
+        padding-top: 200px;
+        padding-bottom: 0;
+    }
+
+    #landing .navbar-fixed-top {
+        padding: 25px 0;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    #landing .navbar-fixed-top .navbar-brand {
+        font-size: 30px;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    #landing .navbar-fixed-top.navbar-shrink {
+        padding: 10px 0;
+    }
+
+    #landing .navbar-fixed-top.navbar-shrink .navbar-brand {
+        font-size: 22.5px;
+    }
+}
+
+#landing .navbar {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+#landing .navbar a:focus {
+    outline: 0;
+}
+
+#landing .navbar .navbar-nav {
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+#landing .navbar .navbar-nav li a:focus {
+    outline: 0;
+}
+
+#landing .navbar-default,
+#landing .navbar-inverse {
+    border: 0;
+}
+
+#landing section {
+    padding: 100px 0;
+}
+
+#landing section h2 {
+    margin: 0;
+    font-size: 45px;
+    padding-bottom: 100px;
+}
+
+#landing section.rules {
+    color: #fff;
+    background: #8a1538;
+    font-size: 20px;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#landing section.rules a {
+    color: #fff;
+}
+
+#landing section.rules a:hover,
+#landing section.rules a:focus,
+#landing section.rules a:active,
+#landing section.rules a.active {
+    outline: 0;
+    color: #8a1538;
+}
+
+#landing section.rules .col-lg-4 li {
+    padding-bottom: 15px;
+}
+
+@media(max-width:767px) {
+    #landing section {
+        padding: 75px 0;
+    }
+
+    #landing section.first {
+        padding-top: 75px;
+    }
+}
+
+#landing section.how-to-play img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#landing section.how-to-play .col-lg-12,
+#landing section.contact .col-lg-12 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+#landing section.how-to-play .col-lg-4 {
+    text-align: center;
+    color: #2c3e50;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#landing section.how-to-play a,
+#landing section.how-to-play a:hover,
+#landing section.how-to-play a:focus,
+#landing section.how-to-play a:active,
+#landing section.how-to-play a.active {
+    color: #8a1538;
+}
+
+#landing .btn-outline {
+    margin-top: 15px;
+    border: solid 2px #fff;
+    font-size: 20px;
+    color: #fff;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+}
+
+#landing header .btn-outline {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#landing .btn-outline:hover,
+#landing .btn-outline:focus,
+#landing .btn-outline:active,
+#landing .btn-outline.active {
+    border: solid 2px #fff;
+    color: #8a1538;
+    background: #fff;
+}
+
+#landing .floating-label-form-group {
+    position: relative;
+    margin-bottom: 0;
+    padding-bottom: .5em;
+    border-bottom: 1px solid #eee;
+}
+
+#landing .floating-label-form-group input,
+#landing .floating-label-form-group textarea {
+    z-index: 1;
+    position: relative;
+    padding-right: 0;
+    padding-left: 0;
+    border: 0;
+    border-radius: 0;
+    font-size: 1.5em;
+    background: 0 0;
+    box-shadow: none!important;
+    resize: none;
+}
+
+#landing .floating-label-form-group label {
+    display: block;
+    z-index: 0;
+    position: relative;
+    top: 2em;
+    margin: 0;
+    font-size: .85em;
+    line-height: 1.764705882em;
+    vertical-align: middle;
+    vertical-align: baseline;
+    opacity: 0;
+    -webkit-transition: top .3s ease,opacity .3s ease;
+    -moz-transition: top .3s ease,opacity .3s ease;
+    -ms-transition: top .3s ease,opacity .3s ease;
+    transition: top .3s ease,opacity .3s ease;
+}
+
+#landing .floating-label-form-group::not(:first-child) {
+    padding-left: 14px;
+    border-left: 1px solid #eee;
+}
+
+#landing .floating-label-form-group-with-value label {
+    top: 0;
+    opacity: 1;
+}
+
+#landing .floating-label-form-group-with-focus label {
+    color: #8a1538;
+}
+
+#landing form .row:first-child .floating-label-form-group {
+    border-top: 1px solid #eee;
+}
+
+#landing footer {
+    color: #fff;
+}
+
+#landing footer h3 {
+    margin-bottom: 30px;
+}
+
+#landing footer .footer-above {
+    padding-top: 50px;
+    background-color: #2c3e50;
+}
+
+#landing footer .footer-col {
+    margin-bottom: 50px;
+}
+
+#landing footer .footer-below {
+    padding: 25px 0;
+    background-color: #233140;
+}
+
+#landing .btn-social {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+}
+
+#landing .btn:focus,
+#landing .btn:active,
+#landing .btn.active {
+    outline: 0;
+}
+
+#landing .scroll-top {
+    z-index: 1049;
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+    width: 50px;
+    height: 50px;
+}
+
+#landing .scroll-top .btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+#landing .scroll-top .btn:focus {
+    outline: 0;
+}

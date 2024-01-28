@@ -1,0 +1,258 @@
+.bf-table {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+}
+
+.activate-image img {
+    width: 80%;
+}
+
+.activate-image {
+    padding-top: 15px;
+    padding-bottom: 45px;
+}
+
+@media (max-width: 991px) {
+    .activate-image img {
+        width: 60%;
+    }
+}
+
+@media (max-width: 329px) {
+    .activate-image img {
+        width: 80%;
+    }
+}
+
+span {
+    text-align: center;
+}
+
+.color-blue {
+    color: @color-red;
+}
+.bf-table h1 {
+    font-weight: 600;
+    color: @color-red; 
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.bf-table-header {
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 39px;
+    font-weight: 600;
+    color: @color-red; 
+    padding-top: 20;
+    padding-bottom: 60px;
+    text-align: left;
+}
+
+.bf-table th {
+    text-align: center;
+}
+
+.bf-table img,
+.bf-table tbody > tr > td {
+    height: 64px;
+    vertical-align: middle;
+}
+
+.bf-table-selector {
+    padding-bottom: 100px;
+}
+
+.fc-button {
+    outline-color: @outline-color;
+}
+
+#pred-submit {
+    background-color: @color-red;
+    border-color: @color-red;
+    outline-color: @outline-color;
+}
+
+
+#predictions-form > div > table,
+#predictions-form > div > table > thead > tr > th,
+#predictions-form > div > table > tbody > tr > td {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+#predictions-form > div > table > thead {
+    border-bottom: 1px solid;
+}
+
+#predictions-form > div > table {
+    margin-bottom: -1px;
+}
+
+.bf-center {
+    text-align:center;
+}
+
+.bf-right {
+    border-top: 1px solid;
+    padding-top: 20px;
+    padding-right: 3ex;
+    text-align:right;
+}
+
+.bf-left {
+    text-align:left;
+}
+
+// Table style for Predictions
+
+.bf-table-vs {
+    width: auto;
+    text-align: center;
+}
+
+.bf-table-vs img {
+    height: 64px; 
+    padding-left: 10px; 
+    padding-right: 10px;
+}
+
+
+.bf-table-small img {
+    height: 48px; 
+    padding-left: 15px; 
+    padding-right: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.bf-table-small-result {
+    display: flex;
+    justify-content: center;
+}
+
+.bf-table-small-result div {
+    display: inline;
+    float: left;
+}
+
+.bf-table-points-user-fixt span {
+    white-space: nowrap;
+}
+
+.bf-table-points-user-fixt img {
+    height: 50px; 
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    padding-left: 0px; 
+    padding-right: 0px;
+}
+
+.bf-table-points-user span {
+    float: left;
+    white-space: nowrap;
+}
+
+.bf-table-points-user img {
+    height: 50px; 
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    padding-left: 0px; 
+    padding-right: 0px;
+}
+
+#testcolumn {
+    min-width: 200px;
+    max-height: 64px;
+    display: inline-flex-center;
+}
+
+#testscore {
+    min-width: 200px;
+    max-height: 64px;
+    display: inline-flex-center;
+}
+
+#checkout button {
+    margin-top: 60px;
+}
+
+.panel-body p {
+    font-size: 13px;
+}
+
+.payment-text {
+    text-align: left;
+}
+
+.input-no-spinner {
+    font-size: 30px !important;
+    padding-left: 1.4ex !important;
+    padding-right: 1.4ex !important;
+}
+
+/* remove the spinner */
+.input-no-spinner::-webkit-outer-spin-button, .input-no-spinner::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.bf-table-submit {
+    font-size: 18px;
+}
+
+.react-numeric-input {
+    touch-action: none;
+}
+
+.bf-rules-table {
+    border-collapse: collapse;
+}
+
+.bf-rules-table th,
+.bf-rules-table td {
+    border: 1px solid;
+    text-align: center;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+#emailText {
+    width: 100%;
+    height: 100px;
+    font-size: 14px;
+    text-align: start;
+}
+
+.emailTable {
+    text-align: left;
+}
+
+.emailTable input {
+    width: 100%;
+}
+
+.emailTable p {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Transition */
+.slide-up-appear {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all 0.5s ease;
+    
+    &.slide-up-appear-active {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+#navigation > div > div > div > ul > li > a:hover {
+    background: @color-red;
+    color: #fff;
+}

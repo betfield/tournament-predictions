@@ -1,0 +1,26 @@
+\\ Firstly need to update running environment (Meteor & NPM) to latest version
+
+npm install -g npm
+meteor update
+
+\\ Need also to generate a new access token for GIT 0auth --> follow guidelines from github webpage
+
+\\ Remove insecure packages
+
+meteor remove autopublish insecure
+
+\\ Install required Meteor packages
+
+meteor add twbs:bootstrap 
+meteor add tsega:bootstrap3-datetimepicker 
+meteor add themeteorchef:bert \\--> error on installing fourseven:scss package so had to install it manually via meteor npm install --save fourseven:scss OR alternatively, if this does not work, meteor add fourseven:scss 
+meteor add check email react-meteor-data miktam:loggly less accounts-password service-configuration accounts-google alanning:roles matb33:collection-hooks chfritz:easycron tap:i18n
+
+
+\\ Install required NPM packages
+
+meteor npm install --save jquery@2.2.4 moment babel-eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-meteor eslint-plugin-react eslint-plugin-jsx-a11y eslint-import-resolver-meteor eslint @meteorjs/eslint-config-meteor react react-dom react-addons-css-transition-group react-addons-linked-state-mixin react-addons-create-fragment react-addons-update react-addons-pure-render-mixin react-test-renderer react-addons-perf react-addons-test-utils react-router-dom react-transition-group react-bootstrap-table-next react-bootstrap-table2-paginator bcrypt react-numeric-input moment @fortawesome/fontawesome-free reactstrap
+
+\\ Create shrinkwrap.json to identify exact version of dependency needs to be used
+
+meteor npm shrinkwrap

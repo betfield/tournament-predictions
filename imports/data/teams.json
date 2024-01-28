@@ -1,0 +1,194 @@
+[
+  {
+      "name_eng": "Qatar",
+      "name": "Katar",
+      "code": "qat",
+      "group": "A "
+  },
+  {
+      "name_eng": "Senegal",
+      "name": "Senegal",
+      "code": "sen",
+      "group": "A "
+  },
+  {
+      "name_eng": "Ecuador",
+      "name": "Ekvador",
+      "code": "ecu",
+      "group": "A "
+  },
+  {
+      "name_eng": "Netherlands",
+      "name": "Holland",
+      "code": "ned",
+      "group": "A "
+  },
+  {
+      "name_eng": "England",
+      "name": "Inglismaa",
+      "code": "eng",
+      "group": "B "
+  },
+  {
+      "name_eng": "USA",
+      "name": "USA",
+      "code": "usa",
+      "group": "B "
+  },
+  {
+      "name_eng": "Iran",
+      "name": "Iraan",
+      "code": "irn",
+      "group": "B "
+  },
+  {
+      "name_eng": "Wales",
+      "name": "Wales",
+      "code": "wal",
+      "group": "B "
+  },
+  {
+      "name_eng": "Argentina",
+      "name": "Argentiina",
+      "code": "arg",
+      "group": "C "
+  },
+  {
+      "name_eng": "Mexico",
+      "name": "Mehhiko",
+      "code": "mex",
+      "group": "C "
+  },
+  {
+      "name_eng": "Saudi Arabia",
+      "name": "Saudi Araabia",
+      "code": "ksa",
+      "group": "C "
+  },
+  {
+      "name_eng": "Poland",
+      "name": "Poola",
+      "code": "pol",
+      "group": "C "
+  },
+  {
+      "name_eng": "Denmark",
+      "name": "Taani",
+      "code": "den",
+      "group": "D "
+  },
+  {
+      "name_eng": "France",
+      "name": "Prantsusmaa",
+      "code": "fra",
+      "group": "D "
+  },
+  {
+      "name_eng": "Tunisia",
+      "name": "Tuneesia",
+      "code": "tun",
+      "group": "D "
+  },
+  {
+      "name_eng": "Australia",
+      "name": "Austraalia",
+      "code": "aus",
+      "group": "D "
+  },
+  {
+      "name_eng": "Germany",
+      "name": "Saksamaa",
+      "code": "ger",
+      "group": "E "
+  },
+  {
+      "name_eng": "Spain",
+      "name": "Hispaania",
+      "code": "esp",
+      "group": "E "
+  },
+  {
+      "name_eng": "Japan",
+      "name": "Jaapan",
+      "code": "jpn",
+      "group": "E "
+  },
+  {
+      "name_eng": "Costa Rica",
+      "name": "Costa Rica",
+      "code": "crc",
+      "group": "E "
+  },
+  {
+      "name_eng": "Morocco",
+      "name": "Maroko",
+      "code": "mor",
+      "group": "F "
+  },
+  {
+      "name_eng": "Belgium",
+      "name": "Belgia",
+      "code": "bel",
+      "group": "F "
+  },
+  {
+      "name_eng": "Croatia",
+      "name": "Horvaatia",
+      "code": "cro",
+      "group": "F "
+  },
+  {
+      "name_eng": "Canada",
+      "name": "Kanada",
+      "code": "can",
+      "group": "F "
+  },
+  {
+      "name_eng": "Switzerland",
+      "name": "Šveits",
+      "code": "sui",
+      "group": "G "
+  },
+  {
+      "name_eng": "Brazil",
+      "name": "Brasiilia",
+      "code": "bra",
+      "group": "G "
+  },
+  {
+      "name_eng": "Cameroon",
+      "name": "Kamerun",
+      "code": "cmr",
+      "group": "G "
+  },
+  {
+      "name_eng": "Serbia",
+      "name": "Serbia",
+      "code": "srb",
+      "group": "G "
+  },
+  {
+      "name_eng": "Uruguay",
+      "name": "Uruguai",
+      "code": "uru",
+      "group": "H "
+  },
+  {
+      "name_eng": "Portugal",
+      "name": "Portugal",
+      "code": "por",
+      "group": "H "
+  },
+  {
+      "name_eng": "Korea Republic",
+      "name": "Lõna-Korea",
+      "code": "kor",
+      "group": "H "
+  },
+  {
+      "name_eng": "Ghana",
+      "name": "Ghana",
+      "code": "gha",
+      "group": "H "
+  }
+]

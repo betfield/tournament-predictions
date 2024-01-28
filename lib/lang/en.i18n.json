@@ -1,0 +1,125 @@
+// Estonian language file
+
+{
+	"dashboard": "Pealeht",
+	
+	"login_back_home": "Avaleht",
+	"login_title": "LOGI SISSE",
+	"login_title_small": "Siia mingi tekst!",
+	"login_username": "Kasutajanimi",
+	"login_email": "naidis@gmail.com",
+	"login_email_title": "Sisesta oma kasutajanimi",
+	"login_username_small": "Sinu kasutajanimi",
+	"login_password": "Parool",
+	"login_password_title": "Sisesta oma parool",
+	"login_password_small": "Sinu parool",
+	"login_password_remember": "Pea mind meeles",
+	"login_password_remember_small": "kui see on isiklik arvuti",
+	"login": "Logi sisse",
+	"loging_in": "Login sisse",
+	"logout": "Logi välja",
+	"register": "Registreeri",
+
+	"calendar": "Kalender",
+	"calendar_description": "Kõik mängud ja nende toimumisajad siit",
+
+	"user_basic": "Tavakasutaja",
+	"user_premium": "Preemium",
+	"user_register_premium": "Registreeri Preemiumiks",
+	"user_profile": "Sinu profiil",
+	"user_statistics": "Statistika",
+
+	"month_jan": "Jaanuar",
+	"month_feb": "Veebruar",
+	"month_mar": "Märts",
+	"month_apr": "Aprill",
+	"month_may": "Mai",
+	"month_jun": "Juuni",
+	"month_jul": "Juuli",
+	"month_aug": "August",
+	"month_sep": "September",
+	"month_oct": "Oktoober",
+	"month_nov": "November",
+	"month_dec": "Detsember",
+
+	"month_jan_s": "Jaan",
+	"month_feb_s": "Veeb",
+	"month_mar_s": "Mär",
+	"month_apr_s": "Apr",
+	"month_may_s": "Mai",
+	"month_jun_s": "Juun",
+	"month_jul_s": "Juul",
+	"month_aug_s": "Aug",
+	"month_sep_s": "Sept",
+	"month_oct_s": "Okt",
+	"month_nov_s": "Nov",
+	"month_dec_s": "Dets",
+
+	"day_mon": "Esmaspäev", 
+	"day_tue": "Teisipäev", 
+	"day_wed": "Kolmapäev", 
+	"day_thu": "Neljapäev", 
+	"day_fri": "Reede", 
+	"day_sat": "Laupäev", 
+	"day_sun": "Pühapäev",
+
+	"day_mon_s": "E", 
+	"day_tue_s": "T", 
+	"day_wed_s": "K", 
+	"day_thu_s": "N", 
+	"day_fri_s": "R", 
+	"day_sat_s": "L", 
+	"day_sun_s": "P",
+
+	"today": "täna",
+	"month": "kuu",
+	"week": "nädal",
+	"day": "päev",
+
+//Password Recovery
+
+	"PASSWORD RECOVER": "Unustasid salasõna?",
+	"fill_form_password": "Salasõna taastamiseks sisesta oma email",
+	"recovery_email": "Sisesta oma email - salasõna uuendus saadetakse emailile",
+	"Email": "Email",
+	"login_email": "näide@gmail.com",
+	"recovery_email_short":"Sisesta oma email",
+	"recovery_username_name": "Sinu kasutajanimi",
+	"recovery_email_registered": "Sinu registreeritud email",
+	"pw_reset": "SAADA",
+	
+	
+//Register
+
+	"register_back_home": "Avalehele",
+	"register_title": "Registreerimine",
+	"register_info": "Täida allolevad väljad",
+	"register_firstname": "Eesnimi",
+	"register_lastname": "Perenimi",
+	"register_pw": "Sisesta salasõna",
+	"register_pw_repeat": "Korda Salasõna",
+	"register_email": "Sisesta Email",
+	"register_email_repeat": "Korda Emaili",
+	"register_agree_terms": "Nõustun lehekülje tingimustega",
+	"register_button": "Registreeri",
+	"register_cancel": "Tühista",	
+	
+	
+//ErrorOne
+
+	"error_back_home": "Avalehele",
+	"error_404": "VIGA 404",
+	"error_pnf": "Lehekülge ei leitud.",
+	"error_pnf_info": "Vabandame, aga lehekülge ei leitud. Võimalik, et aadress on sisestatud valesti",
+	"error_back_home_bot": "Tagasi avalehele",
+	
+//ErrorTwo
+
+	"error_back_home": "Avalehele",
+	"error_500": "Viga 500",
+	"error_ise": "Serveri Sisemine Viga",
+	"error_ise_info": "Midagi läks valesti. Meie serverid ei vasta hetkel. Vabandame ebamugavuste pärast. Proovige lehte uuendada või võtke ühendust example@gmail.com",
+	"error_back_home_bot": "Tagasi avalehele",
+	
+	"copyright": "2015 Copyright Company Name"
+}

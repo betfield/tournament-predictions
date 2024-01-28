@@ -1,0 +1,33 @@
+{
+	"public" : {
+		"env": "Sandbox",
+		"FOLDER_FLAGS": "/images/flags/",
+		"INVALID_TEST_TIME": ""
+	},
+	"private": {
+		"BF_EMAIL": "betfieldou@gmail.com",
+		"REGISTER_END": "2024-11-19T22:00:00Z",
+		"ROUND_END_DATES": [
+			{"ts": "2022-11-20T15:00:00Z", "round": 1},
+			{"ts": "2022-11-25T09:00:00Z", "round": 2},
+			{"ts": "2022-11-29T14:00:00Z", "round": 3},
+			{"ts": "2022-12-03T14:00:00Z", "round": 4},
+			{"ts": "2022-12-09T14:00:00Z", "round": 5},
+			{"ts": "2022-12-13T18:00:00Z", "round": 6},
+			{"ts": "2022-12-17T14:00:00Z", "round": 7},
+			{"ts": "2022-12-25T12:34:56Z", "round": 8}
+		],
+		"MAIL_URL": "smtps://info@fctwister.ee:T0rnaado@mail.fctwister.ee?tls.rejectUnauthorized=false",
+		"UTC_MIN_OFFSET": 120
+	},
+	"loggly": {
+		"token": "ac8aa787-36be-45ce-8690-069f924ffb37",
+		"subdomain": "betfield1.loggly.com",
+		"auth": {
+			"username": "betfield",
+			"password": "B3tfield!"
+		},
+		"tags": ["euro2024"],
+		"json": "true"
+	}
+}

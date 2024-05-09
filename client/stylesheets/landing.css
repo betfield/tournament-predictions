@@ -12,11 +12,15 @@
     font-size: 16px;
 }
 
+#landing .navbar-default {
+    background: #000d40;
+}
+
 #landing .navbar-default .navbar-nav > li > a:hover,
 #landing .navbar-default .navbar-brand:hover,
 #landing .navbar-default .navbar-nav > li > a:focus, 
 #landing .navbar-default .navbar-brand:focus {
-    color: #8a1538;
+    color: #ffc64d;
 }
 
 #landing h1,
@@ -37,7 +41,7 @@
 #landing header {
     text-align: left;
     color: #fff;
-    background: #8a1538;
+    background: #143cdb;
 }
 
 #landing header .container {
@@ -143,21 +147,13 @@
 
 #landing section.rules {
     color: #fff;
-    background: #8a1538;
+    background: #143cdb;
     font-size: 20px;
     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #landing section.rules a {
     color: #fff;
-}
-
-#landing section.rules a:hover,
-#landing section.rules a:focus,
-#landing section.rules a:active,
-#landing section.rules a.active {
-    outline: 0;
-    color: #8a1538;
 }
 
 #landing section.rules .col-lg-4 li {
@@ -197,7 +193,7 @@
 #landing section.how-to-play a:focus,
 #landing section.how-to-play a:active,
 #landing section.how-to-play a.active {
-    color: #8a1538;
+    color: #143cdb;
 }
 
 #landing .btn-outline {
@@ -218,9 +214,9 @@
 #landing .btn-outline:focus,
 #landing .btn-outline:active,
 #landing .btn-outline.active {
-    border: solid 2px #fff;
-    color: #8a1538;
-    background: #fff;
+    border: solid 2px #F9BF4B;
+    color: #F9BF4B;
+    background: #143cdb;
 }
 
 #landing .floating-label-form-group {
@@ -272,11 +268,25 @@
 }
 
 #landing .floating-label-form-group-with-focus label {
-    color: #8a1538;
+    color: #143cdb;
 }
 
 #landing form .row:first-child .floating-label-form-group {
     border-top: 1px solid #eee;
+}
+
+#landing .btn-success:active:hover, 
+#landing .btn-success.active:hover,
+#landing .open > .dropdown-toggle.btn-success:hover,
+#landing .btn-success:active:focus,
+#landing .btn-success.active:focus,
+#landing .open > .dropdown-toggle.btn-success:focus,
+#landing .btn-success:active.focus,
+#landing .btn-success.active.focus,
+#landing .open > .dropdown-toggle.btn-success.focus {
+    color: #ffffff;
+    background-color: #143cdb;
+    border-color: #143cdb;
 }
 
 #landing footer {

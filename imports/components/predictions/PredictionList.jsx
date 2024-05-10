@@ -103,7 +103,7 @@ export default class PredictionList extends Component {
                             userPoints: obj.fixture.userPoints
                         };
                     } else {
-                        Meteor.call("clientLog", "Prediction object does not exist for fixture" + f._id, Meteor.userId() )
+                        Meteor.call("clientLog", "Prediction object does not exist for fixture " + f._id, Meteor.userId() )
                         Bert.alert( "Ennustuse tulemusi ei leitud. Palun pöördu administraatori poole!", "danger" );
                         filteredPredictions[i].prediction = { 
                             result: {

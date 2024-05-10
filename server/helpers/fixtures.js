@@ -1,4 +1,4 @@
-// Round end dates, e.g. dates for first fixture of each round -1h (in UTC)
+// Round end (actually start!) dates, e.g. dates for first fixture of each round -1h (in UTC)
 const firstRoundFixtureDates = Meteor.settings.private.ROUND_END_DATES;
 
 //Register end date (in UTC)

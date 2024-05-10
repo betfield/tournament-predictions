@@ -6,7 +6,7 @@ export default class Footer extends Component {
         return (
             <footer className="footer">
                 <span className="pull-right">
-                FC Twister &copy; 2022
+                FC Twister &copy; 2024
                 </span>
             </footer>
         )

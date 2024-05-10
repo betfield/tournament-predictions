@@ -97,7 +97,7 @@ export default class UserRoundPredictions extends Component {
 
                     fixturesWithData.push(f);
                 } else {
-                    Meteor.call("clientLog", "Prediction object does not exist for fixture" + f._id + "; user: " + userId, Meteor.userId() )
+                    Meteor.call("clientLog", "Prediction object does not exist for fixture " + f._id + "; user: " + userId, Meteor.userId() )
                     Bert.alert( "Ennustuse tulemusi ei leitud. Palun pöördu administraatori poole!", "danger" );
                 }
                 

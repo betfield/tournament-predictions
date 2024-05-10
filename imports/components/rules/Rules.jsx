@@ -55,7 +55,7 @@ export default function Rules() {
                                     Ennustatakse turniiri iga mängu normaalaja skoori.
                                 </li>
                                 <li>
-                                    Ennustusvõistlus on jagatud seitsmeks (7) vooruks, vastavalt sellele kui palju mänge peab üks meeskond mängima, et tulla maailmameistriks. Need voorud koosnevad järgmistest osadest:
+                                    Ennustusvõistlus on jagatud seitsmeks (7) vooruks, vastavalt sellele, kui palju mänge peab üks meeskond mängima, et tulla maailmameistriks. Need voorud koosnevad järgmistest osadest:
                                     <ul>
                                         <li>I voor - iga meeskonna 1. alagrupimäng</li>
                                         <li>II voor - iga meeskonna 2. alagrupimäng</li>
@@ -63,7 +63,7 @@ export default function Rules() {
                                         <li>IV voor - kaheksandikfinaalid</li>
                                         <li>V voor - veerandfinaalid</li>
                                         <li>VI voor - poolfinaalid</li>
-                                        <li>VII voor - finaal ja 3. koha mäng</li>
+                                        <li>VII voor - finaal</li>
                                     </ul>
                                 </li>
                                 <li>
@@ -76,7 +76,7 @@ export default function Rules() {
                                     Alagrupivoorude tulemusi on võimalik ette täita ka enne eelmise vooru lukustumist. Finaalide ennustuste sisestamine muutub võimalikuks peale vastavate kohtumiste meeskondade selgumist.
                                 </li>
                                 <li>
-                                    Kokku koosneb ennustus 64 mängust, st kõik maailmameistrivõistluste finaalturniiri kohtumised lähevad arvesse.
+                                    Kokku koosneb ennustus 51 mängust, st kõik finaalturniiri kohtumised lähevad arvesse.
                                 </li>
                                 <li>
                                     Kui mõni mäng peaks minema lisaajale, siis lisaaja tulemused käesolevat ennustusmängu kuidagi ei mõjuta.
@@ -97,10 +97,10 @@ export default function Rules() {
                                     </ul>
                                 </li>
                                 <li>
-                                    Kõik veerand- ning poolfinaalide eest saadud punktid korrutatakse 2-ga ning finaali ja 3. koha mängu tulemused korrutatakse 3-ga. See tähendab, et iga veerand- ja poolfinaali mängu normaalaja skoori õigesti ennustamine annab 10 punkti (õige võitja 4 punkti, õige väravate vahe 2 punkti) ning finaali ja 3. koha mängu õige skoor 15 punkti (õige võitja 6 punkti, õige väravate vahe 3 punkti). 
+                                    Kõik veerand- ning poolfinaalide eest saadud punktid korrutatakse 2-ga ning finaali tulemused korrutatakse 3-ga. See tähendab, et iga veerand- ja poolfinaali mängu normaalaja skoori õigesti ennustamine annab 10 punkti (õige võitja 4 punkti, õige väravate vahe 2 punkti) ning finaali õige skoor 15 punkti (õige võitja 6 punkti, õige väravate vahe 3 punkti). 
                                 </li>
                                 <li>
-                                    Kokku on seega võimalik teenida maksimaalselt 56 x 5 + 6 x 10 + 2 x 15 = 370 punkti.
+                                    Kokku on seega võimalik teenida maksimaalselt 44 x 5 + 6 x 10 + 1 x 15 = 295 punkti.
                                 </li>
                                 <li>
                                     Mängu paremusjärjestus moodustatakse mängijate ennustuste pealt teenitud punktide kogusumma alusel (suurem summa tagab kõrgema koha).
@@ -115,7 +115,7 @@ export default function Rules() {
                                     </ul>
                                 </li>
                                 <li>
-                                    Lisaks lõplikule paremusjärjestusele on võimalik saada ka "eriauhind" järgnevate voorude võitude eest: I, II, III, (IV + V), (VI + VII). Lahti seletades tähendab see, et selgitame välja 5 eriauhinda: üks auhind iga alagrupivooru parimale, üks auhind kaheksandik- ja veerandfinaalide kokkuvõttes parimale ning eraldi ka üks auhind poolfinaalide ja finaalmängude parimale ennustajale. Iga eriauhinna väärtuseks on ennustusmängu sisseostu summa (€25). Üks mängija võib saada ka mitu eriauhinda. 
+                                    Lisaks lõplikule paremusjärjestusele on võimalik saada ka "eriauhind" järgnevate voorude võitude eest: I, II, III, (IV + V). Lahti seletades tähendab see, et selgitame välja 4 eriauhinda: üks auhind iga alagrupivooru parimale ning eraldi ka üks auhind kõigi kaheksandik- ja veerandfinaalide kokkuvõttes parimale ennustajale. Iga eriauhinna väärtuseks on ennustusmängu sisseostu summa (€25). Üks mängija võib saada ka mitu eriauhinda. 
                                 </li>
                                 <li>
                                     Peale eriauhindade ja korralduskulude mahaarvestamist toimub ülejäänud auhinnafondi jagamine ennustusmängu paremate vahel vastavalt laialt levinud turniiripokkeri väljamakse skeemile, mille leiab <a href="http://www.wsop.com/how-to-play-poker/mtt-tournament-payouts/" target="_blank">siit</a>.

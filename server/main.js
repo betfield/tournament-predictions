@@ -30,7 +30,7 @@ Meteor.startup(() => {
 	//Define array for storing matchday locked statuses
 	FixturesLocked = [];
 
-  if (Fixtures.find({competition:'WC2022'}).count() === 0 ){
+  if (Fixtures.find({competition:'euro2024'}).count() === 0 ){
 		fixtures.forEach(function(fixture){
 			let f = {
 				competition:fixture.competition,

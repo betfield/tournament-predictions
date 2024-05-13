@@ -3223,7 +3223,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-success.active.focus,
 .open > .dropdown-toggle.btn-success.focus {
   color: #ffffff;
-  background-color: #0e6f5c;
+  background-color: #ffc64d;
   border-color: #0a4b3e;
 }
 .btn-success:active,

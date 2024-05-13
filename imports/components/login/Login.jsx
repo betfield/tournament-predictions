@@ -37,7 +37,7 @@ export default function Login() {
                                 <div className="login-page-image">
                                     <img src="images/activate_logo.png"/>    
                                 </div>
-                                <button id="login-page" type="submit" className="btn btn-danger">
+                                <button id="login-page" type="submit" className="btn btn-success">
                                     <span><i className="fab fa-google-plus-g" aria-hidden="true"></i> LOGI SISSE</span>
                                 </button>
                             </form>

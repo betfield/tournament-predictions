@@ -55,7 +55,7 @@ export default function Rules() {
                                     Ennustatakse turniiri iga mängu normaalaja skoori.
                                 </li>
                                 <li>
-                                    Ennustusvõistlus on jagatud seitsmeks (7) vooruks, vastavalt sellele, kui palju mänge peab üks meeskond mängima, et tulla maailmameistriks. Need voorud koosnevad järgmistest osadest:
+                                    Ennustusvõistlus on jagatud seitsmeks (7) vooruks, vastavalt sellele, kui palju mänge peab üks meeskond mängima, et tulla Euroopa meistriks. Need voorud koosnevad järgmistest osadest:
                                     <ul>
                                         <li>I voor - iga meeskonna 1. alagrupimäng</li>
                                         <li>II voor - iga meeskonna 2. alagrupimäng</li>

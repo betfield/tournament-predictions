@@ -22,7 +22,7 @@ export default class Rules extends Component {
                                     Ennustatakse turniiri iga mängu <u>normaalaja</u> täpset skoori.
                                 </li>
                                 <li>
-                                    Ennustus on jagatud seitsmeks (7) vooruks, vastavalt sellele kui palju mänge peab üks meeskond läbima, et tulla maailmameistriks.
+                                    Ennustus on jagatud seitsmeks (7) vooruks, vastavalt sellele kui palju mänge peab üks meeskond läbima, et tulla Euroopa meistriks.
                                 </li>
                                 <li>
                                     Iga voor lukustub 1h enne selle vooru esimese mängu algust, st antud vooru ennustusi pole peale seda võimalik enam muuta.
@@ -35,7 +35,7 @@ export default class Rules extends Component {
                                     Täpse skoori õigesti ennustamine annab kokku 5p. Mängu võitja õigesti ennustamise eest saab 2p ning õige väravatevahe lisaks 1p. Viigi õigesti ennustamine annab 3p.
                                 </li>
                                 <li>
-                                    Veerand- ja poolfinaalide tulemused on võimendatud 2x, finaali ja kolmanda koha mängu tulemused 3x.
+                                    Veerand- ja poolfinaalide tulemused on võimendatud 2x, finaali tulemus 3x.
                                 </li>
                                 <li>
                                     Auhinnafond jaotatakse vastavalt üldisele paremusjärjestusele. Lisaks eriauhinnad üksikute voorude võitjatele.  

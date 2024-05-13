@@ -78,7 +78,7 @@ export default class Header extends Component {
                 <nav role="navigation">
                     <div className="header-link hide-menu" onClick={this.hideMenu}><i className="fa fa-bars"></i></div>
                     <div className="small-logo">
-                        <span className="text-color">MM 2022</span>
+                        <span className="text-color">EURO 2024</span>
                     </div>
                     <div className="mobile-menu">
                         <button type="button" className="navbar-toggle mobile-menu-toggle" data-toggle="collapse" data-target="#mobile-collapse">

@@ -46,8 +46,8 @@ Meteor.methods({
 			Meteor.call('sendEmail',
 			user.userProfile.email,
 			null,
-			'MM2022 ennustus aktiveeritud',
-			'Sinu ennustus on nüüd aktiveeritud. Edukat mängu! \n Teiste mängijatega vestlemiseks liitu ka meie Facebooki grupiga: https://www.facebook.com/groups/527781519159646',
+			'EURO 2024 ennustus aktiveeritud',
+			'Sinu ennustus on nüüd aktiveeritud. Edukat mängu!',
 			(error, result) => {
 				if (error) {
 					throw new Meteor.Error("send-register-email-failed", "Sending of register email failed for user: " + user._id);

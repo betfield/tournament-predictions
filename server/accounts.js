@@ -37,8 +37,8 @@ Meteor.users.after.insert((userId, doc) => {
 
 			sendEmail(doc.userProfile.email,
 				null,
-				'MM2022 ennustus',
-				'Tere tulemast! Oled edukalt süsteemi registreeritud. Järgmise sammuna, palun aktiveeri oma ennustus vastavalt juhendile, mille võid leida siit: https://mm.fctwister.ee/activate.',
+				'EURO 2024 ennustus',
+				'Tere tulemast! Oled edukalt süsteemi registreeritud. Järgmise sammuna, palun aktiveeri oma ennustus vastavalt juhendile, mille võid leida siit: https://em.fctwister.ee/activate.',
 			);
 		}
 	} catch (e) {

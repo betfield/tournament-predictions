@@ -36,6 +36,8 @@ export default class UserList extends Component {
 		this.props.usersHandle.stop();
 	}
 
+
+    // TODO: add check to filter out unregistered users after registration has ended
     getAllUserEmails() {
         const users = this.props.users;
 

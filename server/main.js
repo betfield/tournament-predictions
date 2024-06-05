@@ -19,6 +19,20 @@ import './methods/points';
 import './methods/predictions';
 import './methods/users';
 
+
+/**
+ * Improvements / Suggestions
+ * 
+ * 1) Implement TODO items listed in code
+ * 2) Add info about app usage (e.g. how to view other peoples predictions) and reminder about entering scores (not to leave fields blank) 
+ * 3) Add automatic email reminders 1 day before round and register end dates
+ * 4) Add statistics per fixture (how many people predicted same score) and include prediction?
+ * 5) Implement message board
+ * ...
+ *  
+ */
+
+
 Meteor.startup(() => {
   process.env.MAIL_URL = Meteor.settings.private.MAIL_URL;
 

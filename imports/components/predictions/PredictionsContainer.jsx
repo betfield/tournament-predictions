@@ -4,7 +4,16 @@ import PredictionList from './PredictionList';
 import '../../data/collections';
 
 export default PredictionsContainer = withTracker(() => {
-    const predictionsHandle = Meteor.subscribe('predictions');
+    let predictionsHandle;
+    
+    if (Roles.userIsInRole(Meteor.userId(), ['Administraator']) && Meteor.settings.public.RESULT_USER_ID !== "") {
+        const msg = 'Administrator logged in, user ID selected';
+        Meteor.call("clientLog", msg + ": " + Meteor.settings.public.RESULT_USER_ID, Meteor.userId());
+        predictionsHandle = Meteor.subscribe('userPredictions');
+    } else {
+        predictionsHandle = Meteor.subscribe('predictions');
+    }
+    
     const predictionsReady = predictionsHandle.ready();
     const predictions = Predictions.find({}).fetch();
 

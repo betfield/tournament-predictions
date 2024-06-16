@@ -91,9 +91,9 @@ export default class PredictionList extends Component {
             const predictions = this.props.predictions;
 
             filteredPredictions = fixtures.filter(fixture => fixture.roundRoman === group && fixture.home_team.code && fixture.away_team.code);
-
-            //If not Adminstrator then attach user's prediction to the Fixture
-            if (!Roles.userIsInRole(Meteor.user(),'Administraator')) {
+            
+            //If not Administrator or if RESULT_USER_ID set then attach user's prediction to the Fixture
+            if (!Roles.userIsInRole(Meteor.user(),'Administraator') || Meteor.settings.public.RESULT_USER_ID !== "") {
                 filteredPredictions.forEach(function(f) {
                 
                     const obj = predictions.find(prediction => prediction.fixture._id === f._id);
@@ -146,8 +146,8 @@ export default class PredictionList extends Component {
                 status: e.status,
             }
 
-            //If administrator, use fixture object's result to set the actual match result
-            if (Roles.userIsInRole(Meteor.user(),'Administraator')) {
+            //If administrator, and RESULT_USER_ID not set, use fixture object's result to set the actual match result
+            if (Roles.userIsInRole(Meteor.user(),'Administraator') && Meteor.settings.public.RESULT_USER_ID === "") {
                 prediction.locked = false;
                 prediction.result = {
                     id: e._id,
@@ -156,6 +156,9 @@ export default class PredictionList extends Component {
                 }
             //else, use the prediction instead to set the user's result
             } else {
+                if (Roles.userIsInRole(Meteor.user(),'Administraator') && Meteor.settings.public.RESULT_USER_ID !== "") {
+                    prediction.locked = false;
+                };
                 prediction.result = {
                     id: e._id,
                     homeGoals: e.prediction.result.home_goals,

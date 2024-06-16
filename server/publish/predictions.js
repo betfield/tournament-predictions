@@ -26,6 +26,34 @@ Meteor.publish('predictions', function () {
 	self.ready();
 });
 
+// Publish specific user's predictions
+Meteor.publish('userPredictions', function () {
+	let self = this;
+	let loggedInUserId = this.userId;
+
+	if (Roles.userIsInRole(loggedInUserId, ['Administraator']) && Meteor.settings.public.RESULT_USER_ID !== "") {
+		serverLog("userPredictions method publish, user ID: " + Meteor.settings.public.RESULT_USER_ID);
+		
+		var subHandle = Predictions.find({"userId": Meteor.settings.public.RESULT_USER_ID}).observeChanges({
+			added: function(id, fields) {
+				self.added("predictions", id, fields);
+			},
+			changed: function(id, fields) {
+				self.changed("predictions", id, fields);
+			},
+			removed: function(id) {
+				self.removed("predictions", id);
+			}
+		});
+
+		self.onStop(function () {
+			subHandle.stop();
+		});
+	}
+
+	self.ready();
+});
+
 // Publish all predictions for current fixture
 Meteor.publish('fixturePredictions', function (fixtureId) {
 	let self = this;

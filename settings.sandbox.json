@@ -2,7 +2,8 @@
 	"public" : {
 		"env": "Sandbox",
 		"FOLDER_FLAGS": "/images/flags/",
-		"INVALID_TEST_TIME": ""
+		"INVALID_TEST_TIME": "",
+		"RESULT_USER_ID": "Jt6K9yxh8Z23HZwYN"
 	},
 	"private": {
 		"BF_EMAIL": "betfieldou@gmail.com",

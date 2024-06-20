@@ -2,7 +2,7 @@ import { Meteor } from 'meteor/meteor';
 import { withTracker } from 'meteor/react-meteor-data';
 import FixturePredictions from './FixturePredictions';
 
-export default FixturesContainer = withTracker(( {fixtureId} ) => {
+export default FixturesContainer = withTracker(( {fixtureId, h, a} ) => {
     const predictionsHandle = Meteor.subscribe('fixturePredictions', fixtureId);
     const fixtureHandle = Meteor.subscribe('fixtures');
     const usersHandle = Meteor.subscribe('registeredUsers');
@@ -23,6 +23,8 @@ export default FixturesContainer = withTracker(( {fixtureId} ) => {
         predictionsReady,
         predictions,
         users,
-        usersReady
+        usersReady,
+        h,
+        a
     };
 })(FixturePredictions);

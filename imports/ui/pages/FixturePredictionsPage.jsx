@@ -2,12 +2,13 @@ import React from 'react';
 
 import PortalPage from '../layouts/Portal';
 import FixturePredictionsContainer from '../../components/fixtures/FixturePredictionsContainer';
-import { Navigate, useParams } from 'react-router-dom';
+import { Navigate, useParams, useSearchParams } from 'react-router-dom';
 
 export default function FixturePredictionsPage() {
 
     const params = useParams();
-    
+    const [searchParams] = useSearchParams();
+
     if (!Meteor.userId()) {
         Bert.alert( 'Lehe vaatamiseks pead sisse logima', 'danger' );
         return (<Navigate to="/login" replace />)
@@ -15,7 +16,7 @@ export default function FixturePredictionsPage() {
     } else {
         return (
             <PortalPage title="Mängijate ennustused">
-                <FixturePredictionsContainer fixtureId={params.fixtureId}/>
+                <FixturePredictionsContainer fixtureId={params.fixtureId} h={searchParams.get('h')} a={searchParams.get('a')}/>
             </PortalPage>
         )
     }

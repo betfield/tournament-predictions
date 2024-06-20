@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 import Table from '../../ui/layouts/portal/table/Table';
 import TeamsDropDown from './TeamsDropDown';
@@ -8,25 +9,39 @@ export default class FixturesPredictions extends Component {
 
     formatPredictionsData = (data) => {
         let predictionsData = [];
+        let queryResult = false;
+
         const users = this.props.users;
+        const queryHome = this.props.h;
+        const queryAway = this.props.a;
+        
+        if (queryHome !== null || queryAway !== null) {
+            queryResult = true;    
+            console.log("Query home goals: " + queryHome);
+            console.log("Query away goals: " + queryAway);
+        }       
 
         data.forEach((e) => {
             // Only include predictions that match the registered user list
             if (users.some(elem => elem._id === e.userId)) {
-                let prediction = {
-                    result: {
-                        homeGoals: e.fixture.result.home_goals,
-                        awayGoals: e.fixture.result.away_goals,
-                        userPoints: e.fixture.userPoints
-                    },
-                    user: {
-                        id: e.userId,
-                        name: e.user.team,
-                        image: e.user.picture
+                
+                if (!queryResult || (queryHome === e.fixture.result.home_goals && queryAway === e.fixture.result.away_goals)) {
+                
+                    let prediction = {
+                        result: {
+                            homeGoals: e.fixture.result.home_goals,
+                            awayGoals: e.fixture.result.away_goals,
+                            userPoints: e.fixture.userPoints
+                        },
+                        user: {
+                            id: e.userId,
+                            name: e.user.team,
+                            image: e.user.picture
+                        }
                     }
+        
+                    predictionsData.push(prediction);  
                 }
-    
-                predictionsData.push(prediction);  
             }
         })
 
@@ -193,7 +208,9 @@ export default class FixturesPredictions extends Component {
             
         return (
             <span className="bf-table-score">
-                <span>{result}</span>
+                <Link to={"/fixtures/" + this.props.fixture._id + "?h=" + cell.homeGoals + "&a=" + cell.awayGoals}>
+                    <span >{result}</span>
+                </Link>
             </span>
         );
     }

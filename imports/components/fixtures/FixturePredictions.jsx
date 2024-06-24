@@ -60,7 +60,7 @@ export default class FixturesPredictions extends Component {
                     awayGoals: v.substring(v.indexOf(':') + 1, v.length)
                 },
                 count: results[v],
-                percent: results[v] / data.length * 100
+                percent: (results[v] / data.length * 100).toFixed(2)
             }
             
             statsData.push(res);

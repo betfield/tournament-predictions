@@ -66,6 +66,10 @@ export default class FixturesPredictions extends Component {
             statsData.push(res);
         })
 
+        statsData.sort(function (a, b) {
+            return a.count - b.count;
+        });
+
         return statsData;
     }
 
@@ -74,7 +78,7 @@ export default class FixturesPredictions extends Component {
         var res = {};
         data.forEach(function(v) {
             res[v.result.homeGoals + ":" + v.result.awayGoals] = (res[v.result.homeGoals + ":" + v.result.awayGoals] || 0) + 1;
-        })
+        });
 
         return res;
     }

@@ -16,7 +16,7 @@ export default function FixturePredictionsPage() {
     } else {
         return (
             <PortalPage title="Mängijate ennustused">
-                <FixturePredictionsContainer fixtureId={params.fixtureId} h={searchParams.get('h')} a={searchParams.get('a')}/>
+                <FixturePredictionsContainer fixtureId={params.fixtureId} h={searchParams.get('h')} a={searchParams.get('a')} stats={searchParams.get('stats')}/>
             </PortalPage>
         )
     }

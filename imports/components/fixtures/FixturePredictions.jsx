@@ -16,15 +16,14 @@ export default class FixturesPredictions extends Component {
         const queryAway = this.props.a;
         
         if (queryHome !== null || queryAway !== null) {
-            queryResult = true;    
-            console.log("Query home goals: " + queryHome);
-            console.log("Query away goals: " + queryAway);
+            queryResult = true;  
+            Meteor.call("clientLog", "Query parameter set for fixture " + this.props.fixtureId + ". Home goals: " + queryHome + ". Away goals: " + queryAway, Meteor.userId());
         }       
 
         data.forEach((e) => {
             // Only include predictions that match the registered user list
             if (users.some(elem => elem._id === e.userId)) {
-                
+                // If query parameter is set in the URL, filter out results that match the scores
                 if (!queryResult || (queryHome === e.fixture.result.home_goals && queryAway === e.fixture.result.away_goals)) {
                 
                     let prediction = {
@@ -48,7 +47,40 @@ export default class FixturesPredictions extends Component {
         return predictionsData;
     }
 
+    formatStatsData = (data) => {
+        let statsData = [];
+
+        const results = this.countResult(data);
+
+        Object.keys(results).forEach(function(v) {
+            let res = {
+                result: v,
+                goals: {
+                    homeGoals: v.substring(0, v.indexOf(':')),
+                    awayGoals: v.substring(v.indexOf(':') + 1, v.length)
+                },
+                count: results[v],
+                percent: results[v] / data.length * 100
+            }
+            
+            statsData.push(res);
+        })
+
+        return statsData;
+    }
+
+    countResult(data) {
+
+        var res = {};
+        data.forEach(function(v) {
+            res[v.result.homeGoals + ":" + v.result.awayGoals] = (res[v.result.homeGoals + ":" + v.result.awayGoals] || 0) + 1;
+        })
+
+        return res;
+    }
+
     getFixtureDetails = (f) => {
+
         if (!f.locked) {
             Bert.alert( 'Ennustusvoor veel avatud. Kasutajate ennustused pole kättesaadavad', 'danger' );
         }
@@ -101,6 +133,18 @@ export default class FixturesPredictions extends Component {
                     <tr>
                         <td>{fixture.time}</td>
                         <td>{fixture.round}</td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <Link to={"/fixtures/" + f._id + "?stats=true"} reloadDocument>
+                                <span >Statistika</span>
+                            </Link>
+                        </th>
+                        <th>
+                            <Link to={"/fixtures/" + f._id} reloadDocument>
+                                <span >Ennustused</span>
+                            </Link>
+                        </th>
                     </tr>
                 </tbody>
             </table>
@@ -176,6 +220,16 @@ export default class FixturesPredictions extends Component {
         );
     }
 
+    getFixtureTable = (data, key) => {
+        return (
+            <Table 
+                data={data}
+                keyField={key}
+                getTableHeaders={this.getTableHeaders}
+            />
+        );
+    }
+    
     getAllteams = (fixtures) => {
         let distinctArray = [];
 
@@ -205,7 +259,7 @@ export default class FixturesPredictions extends Component {
 
     resultFormatter = (cell, row) => {
         let result = cell.homeGoals + ":" + cell.awayGoals;
-            
+
         return (
             <span className="bf-table-score">
                 <Link to={"/fixtures/" + this.props.fixture._id + "?h=" + cell.homeGoals + "&a=" + cell.awayGoals}>
@@ -232,44 +286,72 @@ export default class FixturesPredictions extends Component {
     }
 
     getTableHeaders = () => {
-        let columnHeaders = [
-            {
-                text: '',
-                dataField: 'user',
-                headerAlign: 'center',
-                formatter: this.imageFormatter
-            }, 
-            {
-                text: 'Kasutaja',
-                dataField: 'user.name',
-                sort: true,
-                headerAlign: 'center',
-            }, 
-            {
-                text: 'Ennustus',
-                dataField: 'result',
-                sort: false,
-                headerAlign: 'center',
-                formatter: this.resultFormatter
-            },
-            {
-                text: 'Punktid',
-                dataField: 'result.userPoints',
-                sort: true,
-                headerAlign: 'center',
-                formatter: this.pointsFormatter
-            }
-        ];;
+        let columnHeaders = [];
         
-        if ($(window).width() < 501) {
-            columnHeaders[1].hidden = true; 
-        } 
+        if (this.props.stats) {
+            columnHeaders = [
+                {
+                    text: 'Ennustus',
+                    dataField: 'result',
+                    sort: false,
+                    headerAlign: 'center',
+                }, 
+                {
+                    text: 'Kokku',
+                    dataField: 'count',
+                    sort: true,
+                    headerAlign: 'center',
+                }, 
+                {
+                    text: '%',
+                    dataField: 'percent',
+                    sort: true,
+                    headerAlign: 'center',
+                }
+            ];
+        } else {
+            columnHeaders = [
+                {
+                    text: '',
+                    dataField: 'user',
+                    headerAlign: 'center',
+                    formatter: this.imageFormatter
+                }, 
+                {
+                    text: 'Kasutaja',
+                    dataField: 'user.name',
+                    sort: true,
+                    headerAlign: 'center',
+                }, 
+                {
+                    text: 'Ennustus',
+                    dataField: 'result',
+                    sort: false,
+                    headerAlign: 'center',
+                    formatter: this.resultFormatter
+                },
+                {
+                    text: 'Punktid',
+                    dataField: 'result.userPoints',
+                    sort: true,
+                    headerAlign: 'center',
+                    formatter: this.pointsFormatter
+                }
+            ];
+            
+            if ($(window).width() < 501) {
+                columnHeaders[1].hidden = true; 
+            }
+        }
 
         return columnHeaders;
     }
 
     render() {
         
+        let data = this.formatPredictionsData(this.props.predictions);
+        let key = 'user.id';
+
         if (this.props.fixturesReady) {
             //If administrator then allow changing fixture teams
             if (Roles.userIsInRole(Meteor.user(),'Administraator')) {
@@ -280,17 +362,22 @@ export default class FixturesPredictions extends Component {
                 )
             //else, use the prediction instead to set the user's result
             } else if (this.props.predictionsReady && this.props.usersReady) {
+                
+                // If stats parameter defined in URL then display statistics for selected fixture
+                if (this.props.stats) {
+                    console.log("Stats true");
+                    data = this.formatStatsData(this.formatPredictionsData(this.props.predictions));
+                    key = 'result';
+
+                } 
+
                 return (
                     <div>
                         { this.getFixtureDetails(this.props.fixture) }
                         <br/>
-                        <Table 
-                            data={this.formatPredictionsData(this.props.predictions)}
-                            keyField={'user.id'}
-                            getTableHeaders={this.getTableHeaders}
-                        />
+                        { this.getFixtureTable(data, key) }
                     </div>
-                )
+                );
             } else {
                 return <Splash/>
             }
@@ -298,6 +385,5 @@ export default class FixturesPredictions extends Component {
 			return <Splash/>
 		}
         
-    }
-
+    }    
 }

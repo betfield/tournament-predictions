@@ -264,13 +264,24 @@ export default class FixturesPredictions extends Component {
     resultFormatter = (cell, row) => {
         let result = cell.homeGoals + ":" + cell.awayGoals;
 
-        return (
-            <span className="bf-table-score">
-                <Link to={"/fixtures/" + this.props.fixture._id + "?h=" + cell.homeGoals + "&a=" + cell.awayGoals}>
-                    <span >{result}</span>
-                </Link>
-            </span>
-        );
+        //TODO: Ugly hack currently to force reload when stats page used as some errors thrown that not able to resolve now
+        if (this.props.stats) {
+            return (
+                <span className="bf-table-score">
+                    <Link to={"/fixtures/" + this.props.fixture._id + "?h=" + cell.homeGoals + "&a=" + cell.awayGoals} reloadDocument>
+                        <span >{result}</span>
+                    </Link>
+                </span>
+            );
+        } else {
+            return (
+                <span className="bf-table-score">
+                    <Link to={"/fixtures/" + this.props.fixture._id + "?h=" + cell.homeGoals + "&a=" + cell.awayGoals}>
+                        <span >{result}</span>
+                    </Link>
+                </span>
+            );
+        }
     }
 
     pointsFormatter = (cell, row) => {
@@ -296,9 +307,10 @@ export default class FixturesPredictions extends Component {
             columnHeaders = [
                 {
                     text: 'Ennustus',
-                    dataField: 'result',
+                    dataField: 'goals',
                     sort: false,
                     headerAlign: 'center',
+                    formatter: this.resultFormatter
                 }, 
                 {
                     text: 'Kokku',

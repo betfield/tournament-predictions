@@ -38,8 +38,10 @@ Meteor.startup(() => {
 
 	//Define logger object
 	Log = logger;
+	serverLog("ROOT url: " + process.env.ROOT_URL);
 	serverLog("Mongo url: " + process.env.MONGO_URL);
-	serverLog("MAIL url: " + process.env.MAIL_URL);
+	//serverLog("MAIL url: " + process.env.MAIL_URL);
+
 	
 	//Define array for storing matchday locked statuses
 	FixturesLocked = [];

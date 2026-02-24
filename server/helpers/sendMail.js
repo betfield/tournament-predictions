@@ -5,7 +5,7 @@ export default function sendEmail(target, bcc, subject, text) {
         Email.send({
             to: target,
             bcc: bcc,
-            from: 'FC Twister Admin <admin@fctwister.ee>',
+            from: 'FC Twister Admin <fctwister@nr8.ee>',
             subject: subject,
             text: text
         });

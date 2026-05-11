@@ -46,7 +46,7 @@ Meteor.methods({
 			Meteor.call('sendEmail',
 			user.userProfile.email,
 			null,
-			'EURO 2024 ennustus aktiveeritud',
+			'MM 2026 ennustus aktiveeritud',
 			'Sinu ennustus on nüüd aktiveeritud. Edukat mängu!',
 			(error, result) => {
 				if (error) {

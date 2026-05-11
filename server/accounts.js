@@ -37,7 +37,7 @@ Meteor.users.after.insert((userId, doc) => {
 
 			sendEmail(doc.userProfile.email,
 				null,
-				'EURO 2024 ennustus',
+				'MM 2026 ennustus',
 				'Tere tulemast! Oled edukalt süsteemi registreeritud. \nJärgmise sammuna, palun aktiveeri oma ennustus vastavalt juhendile, mille võid leida siit: ' + process.env.ROOT_URL + 'activate.',
 			);
 		}

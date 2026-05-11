@@ -19,8 +19,8 @@ export default function Activate() {
                                 Osavõtutasu: <strong>€25</strong><br/>
                                 Saaja nimi: <strong>Karpo Korõtko</strong><br/>
                                 a/a: <strong>EE067700771000736771</strong><br/>
-                                Selgitus: <strong>EM2024 - <i>Eesnimi Perenimi</i></strong><br/>
-                                Tähtaeg: <strong>13. juuni 2024 kl 23:59*</strong><br/>
+                                Selgitus: <strong>MM2026 - <i>Eesnimi Perenimi</i></strong><br/>
+                                Tähtaeg: <strong>11. juuni 2026 kl 20:00*</strong><br/>
                                 <br/>
                                 Osavõtutasust läheb <strong>€20</strong> ennustusmängu auhinnafondi ning <strong>€5</strong> korraldamisega seotud kulude katteks.<br/>
                                 Hiljemalt 24h peale osavõtutasu laekumist aktiveeritakse sinu ennustus ning osaled mängus.<br/>

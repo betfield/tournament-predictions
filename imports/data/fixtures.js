@@ -1,924 +1,1955 @@
 export const fixtures = 
 [
-    {
-        "competition": "euro2024",
-        "group": "A",
-        "round": 1,
-        "date": "14. juuni",
-        "time": "19:00",
-        "ts": "2024-06-14T19:00Z",
-        "home_team": {
-            "name_eng": "Germany",
-            "name": "Saksamaa",
-            "code": "ger",
-            "group": "A"
-        },
-        "away_team": {
-            "name_eng": "Scotland",
-            "name": "Šotimaa",
-            "code": "sco",
-            "group": "A"
-        },
-        "city": "Munich"
+  {
+    "competition": "wc2026",
+    "group": "A",
+    "round": "1",
+    "date": "11. juuni",
+    "time": "22:00",
+    "ts": "2026-06-11T19:00Z",
+    "home_team": {
+      "name_eng": "Mexico",
+      "name": "Mehhiko",
+      "code": "mex",
+      "group": "A"
     },
-    {
-        "competition": "euro2024",
-        "group": "A",
-        "round": 1,
-        "date": "15. juuni",
-        "time": "13:00",
-        "ts": "2024-06-15T13:00Z",
-        "home_team": {
-            "name_eng": "Hungary",
-            "name": "Ungari",
-            "code": "hun",
-            "group": "A"
-        },
-        "away_team": {
-            "name_eng": "Switzerland",
-            "name": "Šveits",
-            "code": "sui",
-            "group": "A"
-        },
-        "city": "Cologne"
+    "away_team": {
+      "name_eng": "South Africa",
+      "name": "Lõuna-Aafrika Vabariik",
+      "code": "zaf",
+      "group": "A"
     },
-    {
-        "competition": "euro2024",
-        "group": "B",
-        "round": 1,
-        "date": "15. juuni",
-        "time": "16:00",
-        "ts": "2024-06-15T16:00Z",
-        "home_team": {
-            "name_eng": "Spain",
-            "name": "Hispaania",
-            "code": "esp",
-            "group": "B"
-        },
-        "away_team": {
-            "name_eng": "Croatia",
-            "name": "Horvaatia",
-            "code": "cro",
-            "group": "B"
-        },
-        "city": "Berlin"
+    "city": "Mexico City",
+    "venue": "Estadio Azteca"
+  },
+  {
+    "competition": "wc2026",
+    "group": "A",
+    "round": "1",
+    "date": "12. juuni",
+    "time": "5:00",
+    "ts": "2026-06-12T2:00Z",
+    "home_team": {
+      "name_eng": "South Korea",
+      "name": "Lõuna-Korea",
+      "code": "kor",
+      "group": "A"
     },
-    {
-        "competition": "euro2024",
-        "group": "B",
-        "round": 1,
-        "date": "15. juuni",
-        "time": "19:00",
-        "ts": "2024-06-15T19:00Z",
-        "home_team": {
-            "name_eng": "Italy",
-            "name": "Itaalia",
-            "code": "ita",
-            "group": "B"
-        },
-        "away_team": {
-            "name_eng": "Albania",
-            "name": "Albaania",
-            "code": "alb",
-            "group": "B"
-        },
-        "city": "Dortmund"
+    "away_team": {
+      "name_eng": "Czechia",
+      "name": "Tšehhi",
+      "code": "cze",
+      "group": "A"
     },
-    {
-        "competition": "euro2024",
-        "group": "C",
-        "round": 1,
-        "date": "16. juuni",
-        "time": "19:00",
-        "ts": "2024-06-16T19:00Z",
-        "home_team": {
-            "name_eng": "Serbia",
-            "name": "Serbia",
-            "code": "srb",
-            "group": "C"
-        },
-        "away_team": {
-            "name_eng": "England",
-            "name": "Inglismaa",
-            "code": "eng",
-            "group": "C"
-        },
-        "city": "Gelsenkirchen"
+    "city": "Guadalajara",
+    "venue": "Estadio Akron"
+  },
+  {
+    "competition": "wc2026",
+    "group": "B",
+    "round": "1",
+    "date": "12. juuni",
+    "time": "22:00",
+    "ts": "2026-06-12T19:00Z",
+    "home_team": {
+      "name_eng": "Canada",
+      "name": "Kanada",
+      "code": "can",
+      "group": "B"
     },
-    {
-        "competition": "euro2024",
-        "group": "C",
-        "round": 1,
-        "date": "16. juuni",
-        "time": "16:00",
-        "ts": "2024-06-16T16:00Z",
-        "home_team": {
-            "name_eng": "Slovenia",
-            "name": "Sloveenia",
-            "code": "slo",
-            "group": "C"
-        },
-        "away_team": {
-            "name_eng": "Denmark",
-            "name": "Taani",
-            "code": "den",
-            "group": "C"
-        },
-        "city": "Stuttgart"
+    "away_team": {
+      "name_eng": "Bosnia & Herzegovina",
+      "name": "Bosnia ja Hertsegoviina",
+      "code": "bih",
+      "group": "B"
     },
-    {
-        "competition": "euro2024",
-        "group": "D",
-        "round": 1,
-        "date": "16. juuni",
-        "time": "13:00",
-        "ts": "2024-06-16T13:00Z",
-        "home_team": {
-            "name_eng": "Poland",
-            "name": "Poola",
-            "code": "pol",
-            "group": "D"
-        },
-        "away_team": {
-            "name_eng": "Netherlands",
-            "name": "Holland",
-            "code": "ned",
-            "group": "D"
-        },
-        "city": "Hamburg"
+    "city": "Toronto",
+    "venue": "BMO Field"
+  },
+  {
+    "competition": "wc2026",
+    "group": "D",
+    "round": "1",
+    "date": "13. juuni",
+    "time": "4:00",
+    "ts": "2026-06-13T1:00Z",
+    "home_team": {
+      "name_eng": "USA",
+      "name": "Ameerika Ühendriigid",
+      "code": "usa",
+      "group": "D"
     },
-    {
-        "competition": "euro2024",
-        "group": "D",
-        "round": 1,
-        "date": "17. juuni",
-        "time": "19:00",
-        "ts": "2024-06-17T19:00Z",
-        "home_team": {
-            "name_eng": "Austria",
-            "name": "Austria",
-            "code": "aut",
-            "group": "D"
-        },
-        "away_team": {
-            "name_eng": "France",
-            "name": "Prantsusmaa",
-            "code": "fra",
-            "group": "D"
-        },
-        "city": "Dusseldorf"
+    "away_team": {
+      "name_eng": "Paraguay",
+      "name": "Paraguay",
+      "code": "pry",
+      "group": "D"
     },
-    {
-        "competition": "euro2024",
-        "group": "E",
-        "round": 1,
-        "date": "17. juuni",
-        "time": "16:00",
-        "ts": "2024-06-17T16:00Z",
-        "home_team": {
-            "name_eng": "Belgium",
-            "name": "Belgia",
-            "code": "bel",
-            "group": "E"
-        },
-        "away_team": {
-            "name_eng": "Slovakia",
-            "name": "Slovakkia",
-            "code": "svk",
-            "group": "E"
-        },
-        "city": "Frankfurt"
+    "city": "Los Angeles",
+    "venue": "SoFi Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "B",
+    "round": "1",
+    "date": "13. juuni",
+    "time": "22:00",
+    "ts": "2026-06-13T19:00Z",
+    "home_team": {
+      "name_eng": "Qatar",
+      "name": "Katar",
+      "code": "qat",
+      "group": "B"
     },
-    {
-        "competition": "euro2024",
-        "group": "E",
-        "round": 1,
-        "date": "17. juuni",
-        "time": "13:00",
-        "ts": "2024-06-17T13:00Z",
-        "home_team": {
-            "name_eng": "Romania",
-            "name": "Rumeenia",
-            "code": "rom",
-            "group": "E"
-        },
-        "away_team": {
-            "name_eng": "Ukraine",
-            "name": "Ukraina",
-            "code": "ukr",
-            "group": "E"
-        },
-        "city": "Munich"
+    "away_team": {
+      "name_eng": "Switzerland",
+      "name": "Šveits",
+      "code": "che",
+      "group": "B"
     },
-    {
-        "competition": "euro2024",
-        "group": "F",
-        "round": 1,
-        "date": "18. juuni",
-        "time": "16:00",
-        "ts": "2024-06-18T16:00Z",
-        "home_team": {
-            "name_eng": "Turkey",
-            "name": "Türgi",
-            "code": "tur",
-            "group": "F"
-        },
-        "away_team": {
-            "name_eng": "Georgia",
-            "name": "Gruusia",
-            "code": "geo",
-            "group": "F"
-        },
-        "city": "Dortmund"
+    "city": "San Francisco Bay Area",
+    "venue": "Levi's Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "C",
+    "round": "1",
+    "date": "14. juuni",
+    "time": "1:00",
+    "ts": "2026-06-13T22:00Z",
+    "home_team": {
+      "name_eng": "Brazil",
+      "name": "Brasiilia",
+      "code": "bra",
+      "group": "C"
     },
-    {
-        "competition": "euro2024",
-        "group": "F",
-        "round": 1,
-        "date": "18. juuni",
-        "time": "19:00",
-        "ts": "2024-06-18T19:00Z",
-        "home_team": {
-            "name_eng": "Portugal",
-            "name": "Portugal",
-            "code": "por",
-            "group": "F"
-        },
-        "away_team": {
-            "name_eng": "Czech Republic",
-            "name": "Tšehhi",
-            "code": "cze",
-            "group": "F"
-        },
-        "city": "Leipzig"
+    "away_team": {
+      "name_eng": "Morocco",
+      "name": "Maroko",
+      "code": "mar",
+      "group": "C"
     },
-    {
-        "competition": "euro2024",
-        "group": "A",
-        "round": 2,
-        "date": "19. juuni",
-        "time": "19:00",
-        "ts": "2024-06-19T19:00Z",
-        "home_team": {
-            "name_eng": "Scotland",
-            "name": "Šotimaa",
-            "code": "sco",
-            "group": "A"
-        },
-        "away_team": {
-            "name_eng": "Switzerland",
-            "name": "Šveits",
-            "code": "sui",
-            "group": "A"
-        },
-        "city": "Cologne"
+    "city": "New York / New Jersey",
+    "venue": "MetLife Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "C",
+    "round": "1",
+    "date": "14. juuni",
+    "time": "4:00",
+    "ts": "2026-06-14T1:00Z",
+    "home_team": {
+      "name_eng": "Haiti",
+      "name": "Haiti",
+      "code": "hti",
+      "group": "C"
     },
-    {
-        "competition": "euro2024",
-        "group": "A",
-        "round": 2,
-        "date": "19. juuni",
-        "time": "16:00",
-        "ts": "2024-06-19T16:00Z",
-        "home_team": {
-            "name_eng": "Germany",
-            "name": "Saksamaa",
-            "code": "ger",
-            "group": "A"
-        },
-        "away_team": {
-            "name_eng": "Hungary",
-            "name": "Ungari",
-            "code": "hun",
-            "group": "A"
-        },
-        "city": "Stuttgart"
+    "away_team": {
+      "name_eng": "Scotland",
+      "name": "Šotimaa",
+      "code": "sco",
+      "group": "C"
     },
-    {
-        "competition": "euro2024",
-        "group": "B",
-        "round": 2,
-        "date": "19. juuni",
-        "time": "13:00",
-        "ts": "2024-06-19T13:00Z",
-        "home_team": {
-            "name_eng": "Croatia",
-            "name": "Horvaatia",
-            "code": "cro",
-            "group": "B"
-        },
-        "away_team": {
-            "name_eng": "Albania",
-            "name": "Albaania",
-            "code": "alb",
-            "group": "B"
-        },
-        "city": "Hamburg"
+    "city": "Boston",
+    "venue": "Gillette Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "D",
+    "round": "1",
+    "date": "14. juuni",
+    "time": "7:00",
+    "ts": "2026-06-14T4:00Z",
+    "home_team": {
+      "name_eng": "Australia",
+      "name": "Austraalia",
+      "code": "aus",
+      "group": "D"
     },
-    {
-        "competition": "euro2024",
-        "group": "B",
-        "round": 2,
-        "date": "20. juuni",
-        "time": "19:00",
-        "ts": "2024-06-20T19:00Z",
-        "home_team": {
-            "name_eng": "Spain",
-            "name": "Hispaania",
-            "code": "esp",
-            "group": "B"
-        },
-        "away_team": {
-            "name_eng": "Italy",
-            "name": "Itaalia",
-            "code": "ita",
-            "group": "B"
-        },
-        "city": "Gelsenkirchen"
+    "away_team": {
+      "name_eng": "Türkiye",
+      "name": "Türgi",
+      "code": "tur",
+      "group": "D"
     },
-    {
-        "competition": "euro2024",
-        "group": "C",
-        "round": 2,
-        "date": "20. juuni",
-        "time": "16:00",
-        "ts": "2024-06-20T16:00Z",
-        "home_team": {
-            "name_eng": "Denmark",
-            "name": "Taani",
-            "code": "den",
-            "group": "C"
-        },
-        "away_team": {
-            "name_eng": "England",
-            "name": "Inglismaa",
-            "code": "eng",
-            "group": "C"
-        },
-        "city": "Frankfurt"
+    "city": "Vancouver",
+    "venue": "BC Place"
+  },
+  {
+    "competition": "wc2026",
+    "group": "E",
+    "round": "1",
+    "date": "14. juuni",
+    "time": "20:00",
+    "ts": "2026-06-14T17:00Z",
+    "home_team": {
+      "name_eng": "Germany",
+      "name": "Saksamaa",
+      "code": "deu",
+      "group": "E"
     },
-    {
-        "competition": "euro2024",
-        "group": "C",
-        "round": 2,
-        "date": "20. juuni",
-        "time": "13:00",
-        "ts": "2024-06-20T13:00Z",
-        "home_team": {
-            "name_eng": "Slovenia",
-            "name": "Sloveenia",
-            "code": "slo",
-            "group": "C"
-        },
-        "away_team": {
-            "name_eng": "Serbia",
-            "name": "Serbia",
-            "code": "srb",
-            "group": "C"
-        },
-        "city": "Munich"
+    "away_team": {
+      "name_eng": "Curaçao",
+      "name": "Curaçao",
+      "code": "cuw",
+      "group": "E"
     },
-    {
-        "competition": "euro2024",
-        "group": "D",
-        "round": 2,
-        "date": "21. juuni",
-        "time": "16:00",
-        "ts": "2024-06-21T16:00Z",
-        "home_team": {
-            "name_eng": "Poland",
-            "name": "Poola",
-            "code": "pol",
-            "group": "D"
-        },
-        "away_team": {
-            "name_eng": "Austria",
-            "name": "Austria",
-            "code": "aut",
-            "group": "D"
-        },
-        "city": "Berlin"
+    "city": "Houston",
+    "venue": "NRG Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "F",
+    "round": "1",
+    "date": "14. juuni",
+    "time": "23:00",
+    "ts": "2026-06-14T20:00Z",
+    "home_team": {
+      "name_eng": "Netherlands",
+      "name": "Holland",
+      "code": "nld",
+      "group": "F"
     },
-    {
-        "competition": "euro2024",
-        "group": "D",
-        "round": 2,
-        "date": "21. juuni",
-        "time": "19:00",
-        "ts": "2024-06-21T19:00Z",
-        "home_team": {
-            "name_eng": "Netherlands",
-            "name": "Holland",
-            "code": "ned",
-            "group": "D"
-        },
-        "away_team": {
-            "name_eng": "France",
-            "name": "Prantsusmaa",
-            "code": "fra",
-            "group": "D"
-        },
-        "city": "Leipzig"
+    "away_team": {
+      "name_eng": "Japan",
+      "name": "Jaapan",
+      "code": "jpn",
+      "group": "F"
     },
-    {
-        "competition": "euro2024",
-        "group": "E",
-        "round": 2,
-        "date": "21. juuni",
-        "time": "13:00",
-        "ts": "2024-06-21T13:00Z",
-        "home_team": {
-            "name_eng": "Slovakia",
-            "name": "Slovakkia",
-            "code": "svk",
-            "group": "E"
-        },
-        "away_team": {
-            "name_eng": "Ukraine",
-            "name": "Ukraina",
-            "code": "ukr",
-            "group": "E"
-        },
-        "city": "Dusseldorf"
+    "city": "Dallas",
+    "venue": "AT&T Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "E",
+    "round": "1",
+    "date": "15. juuni",
+    "time": "2:00",
+    "ts": "2026-06-14T23:00Z",
+    "home_team": {
+      "name_eng": "Côte d'Ivoire",
+      "name": "Elevandiluurannik",
+      "code": "civ",
+      "group": "E"
     },
-    {
-        "competition": "euro2024",
-        "group": "E",
-        "round": 2,
-        "date": "22. juuni",
-        "time": "19:00",
-        "ts": "2024-06-22T19:00Z",
-        "home_team": {
-            "name_eng": "Belgium",
-            "name": "Belgia",
-            "code": "bel",
-            "group": "E"
-        },
-        "away_team": {
-            "name_eng": "Romania",
-            "name": "Rumeenia",
-            "code": "rom",
-            "group": "E"
-        },
-        "city": "Cologne"
+    "away_team": {
+      "name_eng": "Ecuador",
+      "name": "Ecuador",
+      "code": "ecu",
+      "group": "E"
     },
-    {
-        "competition": "euro2024",
-        "group": "F",
-        "round": 2,
-        "date": "22. juuni",
-        "time": "16:00",
-        "ts": "2024-06-22T16:00Z",
-        "home_team": {
-            "name_eng": "Turkey",
-            "name": "Türgi",
-            "code": "tur",
-            "group": "F"
-        },
-        "away_team": {
-            "name_eng": "Portugal",
-            "name": "Portugal",
-            "code": "por",
-            "group": "F"
-        },
-        "city": "Dortmund"
+    "city": "Philadelphia",
+    "venue": "Lincoln Financial Field"
+  },
+  {
+    "competition": "wc2026",
+    "group": "F",
+    "round": "1",
+    "date": "15. juuni",
+    "time": "5:00",
+    "ts": "2026-06-15T2:00Z",
+    "home_team": {
+      "name_eng": "Sweden",
+      "name": "Rootsi",
+      "code": "swe",
+      "group": "F"
     },
-    {
-        "competition": "euro2024",
-        "group": "F",
-        "round": 2,
-        "date": "22. juuni",
-        "time": "13:00",
-        "ts": "2024-06-22T13:00Z",
-        "home_team": {
-            "name_eng": "Georgia",
-            "name": "Gruusia",
-            "code": "geo",
-            "group": "F"
-        },
-        "away_team": {
-            "name_eng": "Czech Republic",
-            "name": "Tšehhi",
-            "code": "cze",
-            "group": "F"
-        },
-        "city": "Hamburg"
+    "away_team": {
+      "name_eng": "Tunisia",
+      "name": "Tuneesia",
+      "code": "tun",
+      "group": "F"
     },
-    {
-        "competition": "euro2024",
-        "group": "A",
-        "round": 3,
-        "date": "23. juuni",
-        "time": "19:00",
-        "ts": "2024-06-23T19:00Z",
-        "home_team": {
-            "name_eng": "Switzerland",
-            "name": "Šveits",
-            "code": "sui",
-            "group": "A"
-        },
-        "away_team": {
-            "name_eng": "Germany",
-            "name": "Saksamaa",
-            "code": "ger",
-            "group": "A"
-        },
-        "city": "Frankfurt"
+    "city": "Monterrey",
+    "venue": "Estadio BBVA"
+  },
+  {
+    "competition": "wc2026",
+    "group": "H",
+    "round": "1",
+    "date": "15. juuni",
+    "time": "19:00",
+    "ts": "2026-06-15T16:00Z",
+    "home_team": {
+      "name_eng": "Spain",
+      "name": "Hispaania",
+      "code": "esp",
+      "group": "H"
     },
-    {
-        "competition": "euro2024",
-        "group": "A",
-        "round": 3,
-        "date": "23. juuni",
-        "time": "19:00",
-        "ts": "2024-06-23T19:00Z",
-            "home_team": {
-            "name_eng": "Scotland",
-            "name": "Šotimaa",
-            "code": "sco",
-            "group": "A"
-        },
-        "away_team": {
-            "name_eng": "Hungary",
-            "name": "Ungari",
-            "code": "hun",
-            "group": "A"
-        },
-        "city": "Stuttgart"
+    "away_team": {
+      "name_eng": "Cabo Verde",
+      "name": "Cabo Verde",
+      "code": "cpv",
+      "group": "H"
     },
-    {
-        "competition": "euro2024",
-        "group": "B",
-        "round": 3,
-        "date": "24. juuni",
-        "time": "19:00",
-        "ts": "2024-06-24T19:00Z",
-        "home_team": {
-            "name_eng": "Albania",
-            "name": "Albaania",
-            "code": "alb",
-            "group": "B"
-        },
-        "away_team": {
-            "name_eng": "Spain",
-            "name": "Hispaania",
-            "code": "esp",
-            "group": "B"
-        },
-        "city": "Dusseldorf"
+    "city": "Atlanta",
+    "venue": "Mercedes-Benz Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "G",
+    "round": "1",
+    "date": "15. juuni",
+    "time": "22:00",
+    "ts": "2026-06-15T19:00Z",
+    "home_team": {
+      "name_eng": "Belgium",
+      "name": "Belgia",
+      "code": "bel",
+      "group": "G"
     },
-    {
-        "competition": "euro2024",
-        "group": "B",
-        "round": 3,
-        "date": "24. juuni",
-        "time": "19:00",
-        "ts": "2024-06-24T19:00Z",
-        "home_team": {
-            "name_eng": "Croatia",
-            "name": "Horvaatia",
-            "code": "cro",
-            "group": "B"
-        },
-        "away_team": {
-            "name_eng": "Italy",
-            "name": "Itaalia",
-            "code": "ita",
-            "group": "B"
-        },
-        "city": "Leipzig"
+    "away_team": {
+      "name_eng": "Egypt",
+      "name": "Egiptus",
+      "code": "egy",
+      "group": "G"
     },
-    {
-        "competition": "euro2024",
-        "group": "C",
-        "round": 3,
-        "date": "25. juuni",
-        "time": "19:00",
-        "ts": "2024-06-25T19:00Z",
-        "home_team": {
-            "name_eng": "England",
-            "name": "Inglismaa",
-            "code": "eng",
-            "group": "C"
-        },
-        "away_team": {
-            "name_eng": "Slovenia",
-            "name": "Sloveenia",
-            "code": "slo",
-            "group": "C"
-        },
-        "city": "Cologne"
+    "city": "Seattle",
+    "venue": "Lumen Field"
+  },
+  {
+    "competition": "wc2026",
+    "group": "H",
+    "round": "1",
+    "date": "16. juuni",
+    "time": "1:00",
+    "ts": "2026-06-15T22:00Z",
+    "home_team": {
+      "name_eng": "Saudi Arabia",
+      "name": "Saudi Araabia",
+      "code": "sau",
+      "group": "H"
     },
-    {
-        "competition": "euro2024",
-        "group": "C",
-        "round": 3,
-        "date": "25. juuni",
-        "time": "19:00",
-        "ts": "2024-06-25T19:00Z",
-        "home_team": {
-            "name_eng": "Denmark",
-            "name": "Taani",
-            "code": "den",
-            "group": "C"
-        },
-        "away_team": {
-            "name_eng": "Serbia",
-            "name": "Serbia",
-            "code": "srb",
-            "group": "C"
-        },
-        "city": "Munich"
+    "away_team": {
+      "name_eng": "Uruguay",
+      "name": "Uruguay",
+      "code": "ury",
+      "group": "H"
     },
-    {
-        "competition": "euro2024",
-        "group": "D",
-        "round": 3,
-        "date": "25. juuni",
-        "time": "16:00",
-        "ts": "2024-06-25T16:00Z",
-        "home_team": {
-            "name_eng": "Netherlands",
-            "name": "Holland",
-            "code": "ned",
-            "group": "D"
-        },
-        "away_team": {
-            "name_eng": "Austria",
-            "name": "Austria",
-            "code": "aut",
-            "group": "D"
-        },
-        "city": "Berlin"
+    "city": "Miami",
+    "venue": "Hard Rock Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "G",
+    "round": "1",
+    "date": "16. juuni",
+    "time": "4:00",
+    "ts": "2026-06-16T1:00Z",
+    "home_team": {
+      "name_eng": "Iran",
+      "name": "Iraan",
+      "code": "irn",
+      "group": "G"
     },
-    {
-        "competition": "euro2024",
-        "group": "D",
-        "round": 3,
-        "date": "25. juuni",
-        "time": "16:00",
-        "ts": "2024-06-25T16:00Z",
-        "home_team": {
-            "name_eng": "France",
-            "name": "Prantsusmaa",
-            "code": "fra",
-            "group": "D"
-        },
-        "away_team": {
-            "name_eng": "Poland",
-            "name": "Poola",
-            "code": "pol",
-            "group": "D"
-        },
-        "city": "Dortmund"
+    "away_team": {
+      "name_eng": "New Zealand",
+      "name": "Uus-Meremaa",
+      "code": "nzl",
+      "group": "G"
     },
-    {
-        "competition": "euro2024",
-        "group": "E",
-        "round": 3,
-        "date": "26. juuni",
-        "time": "16:00",
-        "ts": "2024-06-26T16:00Z",
-        "home_team": {
-            "name_eng": "Slovakia",
-            "name": "Slovakkia",
-            "code": "svk",
-            "group": "E"
-        },
-        "away_team": {
-            "name_eng": "Romania",
-            "name": "Rumeenia",
-            "code": "rom",
-            "group": "E"
-        },
-        "city": "Frankfurt"
+    "city": "Los Angeles",
+    "venue": "SoFi Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "I",
+    "round": "1",
+    "date": "16. juuni",
+    "time": "22:00",
+    "ts": "2026-06-16T19:00Z",
+    "home_team": {
+      "name_eng": "France",
+      "name": "Prantsusmaa",
+      "code": "fra",
+      "group": "I"
     },
-    {
-        "competition": "euro2024",
-        "group": "E",
-        "round": 3,
-        "date": "26. juuni",
-        "time": "16:00",
-        "ts": "2024-06-26T16:00Z",
-        "home_team": {
-            "name_eng": "Ukraine",
-            "name": "Ukraina",
-            "code": "ukr",
-            "group": "E"
-        },
-        "away_team": {
-            "name_eng": "Belgium",
-            "name": "Belgia",
-            "code": "bel",
-            "group": "E"
-        },
-        "city": "Stuttgart"
+    "away_team": {
+      "name_eng": "Senegal",
+      "name": "Senegal",
+      "code": "sen",
+      "group": "I"
     },
-    {
-        "competition": "euro2024",
-        "group": "F",
-        "round": 3,
-        "date": "26. juuni",
-        "time": "19:00",
-        "ts": "2024-06-26T19:00Z",
-        "home_team": {
-            "name_eng": "Georgia",
-            "name": "Gruusia",
-            "code": "geo",
-            "group": "F"
-        },
-        "away_team": {
-            "name_eng": "Portugal",
-            "name": "Portugal",
-            "code": "por",
-            "group": "F"
-        },
-        "city": "Gelsenkirchen"
+    "city": "New York / New Jersey",
+    "venue": "MetLife Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "I",
+    "round": "1",
+    "date": "17. juuni",
+    "time": "1:00",
+    "ts": "2026-06-16T22:00Z",
+    "home_team": {
+      "name_eng": "Iraq",
+      "name": "Iraak",
+      "code": "irq",
+      "group": "I"
     },
-    {
-        "competition": "euro2024",
-        "group": "F",
-        "round": 3,
-        "date": "26. juuni",
-        "time": "19:00",
-        "ts": "2024-06-26T19:00Z",
-        "home_team": {
-            "name_eng": "Czech Republic",
-            "name": "Tšehhi",
-            "code": "cze",
-            "group": "F"
-        },
-        "away_team": {
-            "name_eng": "Turkey",
-            "name": "Türgi",
-            "code": "tur",
-            "group": "F"
-        },
-        "city": "Hamburg"
+    "away_team": {
+      "name_eng": "Norway",
+      "name": "Norra",
+      "code": "nor",
+      "group": "I"
     },
-    {
-        "competition": "euro2024",
-        "group": "L16",
-        "round": 4,
-        "date": "29. juuni",
-        "time": "19:00",
-        "ts": "2024-06-29T19:00Z",
-        "home_team": "A1",
-        "away_team": "C2",
-        "city": "Dortmund"
+    "city": "Boston",
+    "venue": "Gillette Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "J",
+    "round": "1",
+    "date": "17. juuni",
+    "time": "4:00",
+    "ts": "2026-06-17T1:00Z",
+    "home_team": {
+      "name_eng": "Argentina",
+      "name": "Argentina",
+      "code": "arg",
+      "group": "J"
     },
-    {
-        "competition": "euro2024",
-        "group": "L16",
-        "round": 4,
-        "date": "29. juuni",
-        "time": "16:00",
-        "ts": "2024-06-29T16:00Z",
-        "home_team": "A2",
-        "away_team": "B2",
-        "city": "Berlin"
+    "away_team": {
+      "name_eng": "Algeria",
+      "name": "Alžeeria",
+      "code": "dza",
+      "group": "J"
     },
-    {
-        "competition": "euro2024",
-        "group": "L16",
-        "round": 4,
-        "date": "30. juuni",
-        "time": "19:00",
-        "ts": "2024-06-30T19:00Z",
-        "home_team": "B1",
-        "away_team": "ADEF3",
-        "city": "Cologne"
+    "city": "Kansas City",
+    "venue": "Arrowhead Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "J",
+    "round": "1",
+    "date": "17. juuni",
+    "time": "7:00",
+    "ts": "2026-06-17T4:00Z",
+    "home_team": {
+      "name_eng": "Austria",
+      "name": "Austria",
+      "code": "aut",
+      "group": "J"
     },
-    {
-        "competition": "euro2024",
-        "group": "L16",
-        "round": 4,
-        "date": "30. juuni",
-        "time": "16:00",
-        "ts": "2024-06-30T16:00Z",
-        "home_team": "C1",
-        "away_team": "DEF3",
-        "city": "Gelsenkirchen"
+    "away_team": {
+      "name_eng": "Jordan",
+      "name": "Jordaania",
+      "code": "jor",
+      "group": "J"
     },
-    {
-        "competition": "euro2024",
-        "group": "L16",
-        "round": 4,
-        "date": "1. juuli",
-        "time": "19:00",
-        "ts": "2024-07-01T19:00Z",
-        "home_team": "F1",
-        "away_team": "ABC3",
-        "city": "Frankfurt"
+    "city": "San Francisco Bay Area",
+    "venue": "Levi's Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "K",
+    "round": "1",
+    "date": "17. juuni",
+    "time": "20:00",
+    "ts": "2026-06-17T17:00Z",
+    "home_team": {
+      "name_eng": "Portugal",
+      "name": "Portugal",
+      "code": "prt",
+      "group": "K"
     },
-    {
-        "competition": "euro2024",
-        "group": "L16",
-        "round": 4,
-        "date": "1. juuli",
-        "time": "16:00",
-        "ts": "2024-07-01T16:00Z",
-        "home_team": "D2",
-        "away_team": "E2",
-        "city": "Dusseldorf"
+    "away_team": {
+      "name_eng": "Congo DR",
+      "name": "Kongo Demokraatlik Vabariik",
+      "code": "cod",
+      "group": "K"
     },
-    {
-        "competition": "euro2024",
-        "group": "L16",
-        "round": 4,
-        "date": "2. juuli",
-        "time": "16:00",
-        "ts": "2024-07-02T16:00Z",
-        "home_team": "E1",
-        "away_team": "ABCD3",
-        "city": "Munich"
+    "city": "Houston",
+    "venue": "NRG Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "L",
+    "round": "1",
+    "date": "17. juuni",
+    "time": "23:00",
+    "ts": "2026-06-17T20:00Z",
+    "home_team": {
+      "name_eng": "England",
+      "name": "Inglismaa",
+      "code": "eng",
+      "group": "L"
     },
-    {
-        "competition": "euro2024",
-        "group": "L16",
-        "round": 4,
-        "date": "2. juuli",
-        "time": "19:00",
-        "ts": "2024-07-02T19:00Z",
-        "home_team": "D1",
-        "away_team": "F2",
-        "city": "Leipzig"
+    "away_team": {
+      "name_eng": "Croatia",
+      "name": "Horvaatia",
+      "code": "hrv",
+      "group": "L"
     },
-    {
-        "competition": "euro2024",
-        "group": "QF",
-        "round": 5,
-        "date": "5. juuli",
-        "time": "16:00",
-        "ts": "2024-07-05T16:00Z",
-        "home_team": "Winner 3",
-        "away_team": "Winner 1",
-        "city": "Stuttgart"
+    "city": "Dallas",
+    "venue": "AT&T Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "L",
+    "round": "1",
+    "date": "18. juuni",
+    "time": "2:00",
+    "ts": "2026-06-17T23:00Z",
+    "home_team": {
+      "name_eng": "Ghana",
+      "name": "Ghana",
+      "code": "gha",
+      "group": "L"
     },
-    {
-        "competition": "euro2024",
-        "group": "QF",
-        "round": 5,
-        "date": "5. juuli",
-        "time": "19:00",
-        "ts": "2024-07-05T19:00Z",
-        "home_team": "Winner 5",
-        "away_team": "Winner 6",
-        "city": "Hamburg"
+    "away_team": {
+      "name_eng": "Panama",
+      "name": "Panama",
+      "code": "pan",
+      "group": "L"
     },
-    {
-        "competition": "euro2024",
-        "group": "QF",
-        "round": 5,
-        "date": "6. juuli",
-        "time": "19:00",
-        "ts": "2024-07-06T19:00Z",
-        "home_team": "Winner 7",
-        "away_team": "Winner 8",
-        "city": "Berlin"
+    "city": "Toronto",
+    "venue": "BMO Field"
+  },
+  {
+    "competition": "wc2026",
+    "group": "K",
+    "round": "1",
+    "date": "18. juuni",
+    "time": "5:00",
+    "ts": "2026-06-18T2:00Z",
+    "home_team": "Uzbekistan",
+    "away_team": {
+      "name_eng": "Colombia",
+      "name": "Colombia",
+      "code": "col",
+      "group": "K"
     },
-    {
-        "competition": "euro2024",
-        "group": "QF",
-        "round": 5,
-        "date": "6. juuli",
-        "time": "16:00",
-        "ts": "2024-07-06T16:00Z",
-        "home_team": "Winner 4",
-        "away_team": "Winner 2",
-        "city": "Dusseldorf"
+    "city": "Mexico City",
+    "venue": "Estadio Azteca"
+  },
+  {
+    "competition": "wc2026",
+    "group": "A",
+    "round": "2",
+    "date": "18. juuni",
+    "time": "19:00",
+    "ts": "2026-06-18T16:00Z",
+    "home_team": {
+      "name_eng": "Czechia",
+      "name": "Tšehhi",
+      "code": "cze",
+      "group": "A"
     },
-    {
-        "competition": "euro2024",
-        "group": "SF",
-        "round": 6,
-        "date": "9. juuli",
-        "time": "19:00",
-        "ts": "2024-07-09T19:00Z",
-        "home_team": "Winner QF1",
-        "away_team": "Winner QF2",
-        "city": "Munich"
+    "away_team": {
+      "name_eng": "South Africa",
+      "name": "Lõuna-Aafrika Vabariik",
+      "code": "zaf",
+      "group": "A"
     },
-    {
-        "competition": "euro2024",
-        "group": "SF",
-        "round": 6,
-        "date": "10. juuli",
-        "time": "19:00",
-        "ts": "2024-07-10T19:00Z",
-        "home_team": "Winner QF3",
-        "away_team": "Winner QF4",
-        "city": "Dortmund"
+    "city": "Atlanta",
+    "venue": "Mercedes-Benz Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "B",
+    "round": "2",
+    "date": "18. juuni",
+    "time": "22:00",
+    "ts": "2026-06-18T19:00Z",
+    "home_team": {
+      "name_eng": "Switzerland",
+      "name": "Šveits",
+      "code": "che",
+      "group": "B"
     },
-    {
-        "competition": "euro2024",
-        "group": "FI",
-        "round": 7,
-        "date": "14. juuli",
-        "time": "19:00",
-        "ts": "2024-07-14T19:00Z",
-        "home_team": "Winner SF1",
-        "away_team": "Winner SF2",
-        "city": "Berlin"
-    }
+    "away_team": {
+      "name_eng": "Bosnia & Herzegovina",
+      "name": "Bosnia ja Hertsegoviina",
+      "code": "bih",
+      "group": "B"
+    },
+    "city": "Los Angeles",
+    "venue": "SoFi Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "B",
+    "round": "2",
+    "date": "19. juuni",
+    "time": "1:00",
+    "ts": "2026-06-18T22:00Z",
+    "home_team": {
+      "name_eng": "Canada",
+      "name": "Kanada",
+      "code": "can",
+      "group": "B"
+    },
+    "away_team": {
+      "name_eng": "Qatar",
+      "name": "Katar",
+      "code": "qat",
+      "group": "B"
+    },
+    "city": "Vancouver",
+    "venue": "BC Place"
+  },
+  {
+    "competition": "wc2026",
+    "group": "A",
+    "round": "2",
+    "date": "19. juuni",
+    "time": "4:00",
+    "ts": "2026-06-19T1:00Z",
+    "home_team": {
+      "name_eng": "Mexico",
+      "name": "Mehhiko",
+      "code": "mex",
+      "group": "A"
+    },
+    "away_team": {
+      "name_eng": "South Korea",
+      "name": "Lõuna-Korea",
+      "code": "kor",
+      "group": "A"
+    },
+    "city": "Guadalajara",
+    "venue": "Estadio Akron"
+  },
+  {
+    "competition": "wc2026",
+    "group": "D",
+    "round": "2",
+    "date": "19. juuni",
+    "time": "22:00",
+    "ts": "2026-06-19T19:00Z",
+    "home_team": {
+      "name_eng": "USA",
+      "name": "Ameerika Ühendriigid",
+      "code": "usa",
+      "group": "D"
+    },
+    "away_team": {
+      "name_eng": "Australia",
+      "name": "Austraalia",
+      "code": "aus",
+      "group": "D"
+    },
+    "city": "Seattle",
+    "venue": "Lumen Field"
+  },
+  {
+    "competition": "wc2026",
+    "group": "C",
+    "round": "2",
+    "date": "20. juuni",
+    "time": "1:00",
+    "ts": "2026-06-19T22:00Z",
+    "home_team": {
+      "name_eng": "Scotland",
+      "name": "Šotimaa",
+      "code": "sco",
+      "group": "C"
+    },
+    "away_team": {
+      "name_eng": "Morocco",
+      "name": "Maroko",
+      "code": "mar",
+      "group": "C"
+    },
+    "city": "Boston",
+    "venue": "Gillette Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "C",
+    "round": "2",
+    "date": "20. juuni",
+    "time": "3:30",
+    "ts": "2026-06-20T0:30Z",
+    "home_team": {
+      "name_eng": "Brazil",
+      "name": "Brasiilia",
+      "code": "bra",
+      "group": "C"
+    },
+    "away_team": {
+      "name_eng": "Haiti",
+      "name": "Haiti",
+      "code": "hti",
+      "group": "C"
+    },
+    "city": "Philadelphia",
+    "venue": "Lincoln Financial Field"
+  },
+  {
+    "competition": "wc2026",
+    "group": "D",
+    "round": "2",
+    "date": "20. juuni",
+    "time": "6:00",
+    "ts": "2026-06-20T3:00Z",
+    "home_team": {
+      "name_eng": "Türkiye",
+      "name": "Türgi",
+      "code": "tur",
+      "group": "D"
+    },
+    "away_team": {
+      "name_eng": "Paraguay",
+      "name": "Paraguay",
+      "code": "pry",
+      "group": "D"
+    },
+    "city": "San Francisco Bay Area",
+    "venue": "Levi's Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "F",
+    "round": "2",
+    "date": "20. juuni",
+    "time": "20:00",
+    "ts": "2026-06-20T17:00Z",
+    "home_team": {
+      "name_eng": "Netherlands",
+      "name": "Holland",
+      "code": "nld",
+      "group": "F"
+    },
+    "away_team": {
+      "name_eng": "Sweden",
+      "name": "Rootsi",
+      "code": "swe",
+      "group": "F"
+    },
+    "city": "Houston",
+    "venue": "NRG Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "E",
+    "round": "2",
+    "date": "20. juuni",
+    "time": "23:00",
+    "ts": "2026-06-20T20:00Z",
+    "home_team": {
+      "name_eng": "Germany",
+      "name": "Saksamaa",
+      "code": "deu",
+      "group": "E"
+    },
+    "away_team": {
+      "name_eng": "Côte d'Ivoire",
+      "name": "Elevandiluurannik",
+      "code": "civ",
+      "group": "E"
+    },
+    "city": "Toronto",
+    "venue": "BMO Field"
+  },
+  {
+    "competition": "wc2026",
+    "group": "E",
+    "round": "2",
+    "date": "21. juuni",
+    "time": "3:00",
+    "ts": "2026-06-21T0:00Z",
+    "home_team": {
+      "name_eng": "Ecuador",
+      "name": "Ecuador",
+      "code": "ecu",
+      "group": "E"
+    },
+    "away_team": {
+      "name_eng": "Curaçao",
+      "name": "Curaçao",
+      "code": "cuw",
+      "group": "E"
+    },
+    "city": "Kansas City",
+    "venue": "Arrowhead Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "F",
+    "round": "2",
+    "date": "21. juuni",
+    "time": "7:00",
+    "ts": "2026-06-21T4:00Z",
+    "home_team": {
+      "name_eng": "Tunisia",
+      "name": "Tuneesia",
+      "code": "tun",
+      "group": "F"
+    },
+    "away_team": {
+      "name_eng": "Japan",
+      "name": "Jaapan",
+      "code": "jpn",
+      "group": "F"
+    },
+    "city": "Monterrey",
+    "venue": "Estadio BBVA"
+  },
+  {
+    "competition": "wc2026",
+    "group": "H",
+    "round": "2",
+    "date": "21. juuni",
+    "time": "20:00",
+    "ts": "2026-06-21T17:00Z",
+    "home_team": {
+      "name_eng": "Spain",
+      "name": "Hispaania",
+      "code": "esp",
+      "group": "H"
+    },
+    "away_team": {
+      "name_eng": "Saudi Arabia",
+      "name": "Saudi Araabia",
+      "code": "sau",
+      "group": "H"
+    },
+    "city": "Atlanta",
+    "venue": "Mercedes-Benz Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "G",
+    "round": "2",
+    "date": "21. juuni",
+    "time": "22:00",
+    "ts": "2026-06-21T19:00Z",
+    "home_team": {
+      "name_eng": "Belgium",
+      "name": "Belgia",
+      "code": "bel",
+      "group": "G"
+    },
+    "away_team": {
+      "name_eng": "Iran",
+      "name": "Iraan",
+      "code": "irn",
+      "group": "G"
+    },
+    "city": "Los Angeles",
+    "venue": "SoFi Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "H",
+    "round": "2",
+    "date": "22. juuni",
+    "time": "4:00",
+    "ts": "2026-06-22T1:00Z",
+    "home_team": {
+      "name_eng": "Uruguay",
+      "name": "Uruguay",
+      "code": "ury",
+      "group": "H"
+    },
+    "away_team": {
+      "name_eng": "Cabo Verde",
+      "name": "Cabo Verde",
+      "code": "cpv",
+      "group": "H"
+    },
+    "city": "Miami",
+    "venue": "Hard Rock Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "G",
+    "round": "2",
+    "date": "22. juuni",
+    "time": "7:00",
+    "ts": "2026-06-22T4:00Z",
+    "home_team": {
+      "name_eng": "New Zealand",
+      "name": "Uus-Meremaa",
+      "code": "nzl",
+      "group": "G"
+    },
+    "away_team": {
+      "name_eng": "Egypt",
+      "name": "Egiptus",
+      "code": "egy",
+      "group": "G"
+    },
+    "city": "Vancouver",
+    "venue": "BC Place"
+  },
+  {
+    "competition": "wc2026",
+    "group": "I",
+    "round": "2",
+    "date": "22. juuni",
+    "time": "22:00",
+    "ts": "2026-06-22T19:00Z",
+    "home_team": {
+      "name_eng": "Norway",
+      "name": "Norra",
+      "code": "nor",
+      "group": "I"
+    },
+    "away_team": {
+      "name_eng": "Senegal",
+      "name": "Senegal",
+      "code": "sen",
+      "group": "I"
+    },
+    "city": "New York / New Jersey",
+    "venue": "MetLife Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "I",
+    "round": "2",
+    "date": "23. juuni",
+    "time": "1:00",
+    "ts": "2026-06-22T22:00Z",
+    "home_team": {
+      "name_eng": "France",
+      "name": "Prantsusmaa",
+      "code": "fra",
+      "group": "I"
+    },
+    "away_team": {
+      "name_eng": "Iraq",
+      "name": "Iraak",
+      "code": "irq",
+      "group": "I"
+    },
+    "city": "Philadelphia",
+    "venue": "Lincoln Financial Field"
+  },
+  {
+    "competition": "wc2026",
+    "group": "J",
+    "round": "2",
+    "date": "23. juuni",
+    "time": "4:00",
+    "ts": "2026-06-23T1:00Z",
+    "home_team": {
+      "name_eng": "Argentina",
+      "name": "Argentina",
+      "code": "arg",
+      "group": "J"
+    },
+    "away_team": {
+      "name_eng": "Austria",
+      "name": "Austria",
+      "code": "aut",
+      "group": "J"
+    },
+    "city": "Dallas",
+    "venue": "AT&T Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "J",
+    "round": "2",
+    "date": "23. juuni",
+    "time": "7:00",
+    "ts": "2026-06-23T4:00Z",
+    "home_team": {
+      "name_eng": "Jordan",
+      "name": "Jordaania",
+      "code": "jor",
+      "group": "J"
+    },
+    "away_team": {
+      "name_eng": "Algeria",
+      "name": "Alžeeria",
+      "code": "dza",
+      "group": "J"
+    },
+    "city": "San Francisco Bay Area",
+    "venue": "Levi's Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "K",
+    "round": "2",
+    "date": "23. juuni",
+    "time": "21:00",
+    "ts": "2026-06-23T18:00Z",
+    "home_team": {
+      "name_eng": "Portugal",
+      "name": "Portugal",
+      "code": "prt",
+      "group": "K"
+    },
+    "away_team": "Uzbekistan",
+    "city": "Houston",
+    "venue": "NRG Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "K",
+    "round": "2",
+    "date": "24. juuni",
+    "time": "0:00",
+    "ts": "2026-06-23T21:00Z",
+    "home_team": {
+      "name_eng": "Colombia",
+      "name": "Colombia",
+      "code": "col",
+      "group": "K"
+    },
+    "away_team": {
+      "name_eng": "Congo DR",
+      "name": "Kongo Demokraatlik Vabariik",
+      "code": "cod",
+      "group": "K"
+    },
+    "city": "Guadalajara",
+    "venue": "Estadio Akron"
+  },
+  {
+    "competition": "wc2026",
+    "group": "L",
+    "round": "2",
+    "date": "1:00",
+    "ts": "2026-06-23T22:00Z",
+    "home_team": {
+      "name_eng": "England",
+      "name": "Inglismaa",
+      "code": "eng",
+      "group": "L"
+    },
+    "away_team": {
+      "name_eng": "Ghana",
+      "name": "Ghana",
+      "code": "gha",
+      "group": "L"
+    },
+    "city": "Boston",
+    "venue": "Gillette Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "L",
+    "round": "2",
+    "date": "24. juuni",
+    "time": "4:00",
+    "ts": "2026-06-24T1:00Z",
+    "home_team": {
+      "name_eng": "Panama",
+      "name": "Panama",
+      "code": "pan",
+      "group": "L"
+    },
+    "away_team": {
+      "name_eng": "Croatia",
+      "name": "Horvaatia",
+      "code": "hrv",
+      "group": "L"
+    },
+    "city": "Toronto",
+    "venue": "BMO Field"
+  },
+  {
+    "competition": "wc2026",
+    "group": "C",
+    "round": "3",
+    "date": "24. juuni",
+    "time": "21:00",
+    "ts": "2026-06-24T18:00Z",
+    "home_team": {
+      "name_eng": "Morocco",
+      "name": "Maroko",
+      "code": "mar",
+      "group": "C"
+    },
+    "away_team": {
+      "name_eng": "Haiti",
+      "name": "Haiti",
+      "code": "hti",
+      "group": "C"
+    },
+    "city": "Atlanta",
+    "venue": "Mercedes-Benz Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "C",
+    "round": "3",
+    "date": "24. juuni",
+    "time": "21:00",
+    "ts": "2026-06-24T18:00Z",
+    "home_team": {
+      "name_eng": "Scotland",
+      "name": "Šotimaa",
+      "code": "sco",
+      "group": "C"
+    },
+    "away_team": {
+      "name_eng": "Brazil",
+      "name": "Brasiilia",
+      "code": "bra",
+      "group": "C"
+    },
+    "city": "Miami",
+    "venue": "Hard Rock Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "A",
+    "round": "3",
+    "date": "25. juuni",
+    "time": "0:00",
+    "ts": "2026-06-24T21:00Z",
+    "home_team": {
+      "name_eng": "Czechia",
+      "name": "Tšehhi",
+      "code": "cze",
+      "group": "A"
+    },
+    "away_team": {
+      "name_eng": "Mexico",
+      "name": "Mehhiko",
+      "code": "mex",
+      "group": "A"
+    },
+    "city": "Mexico City",
+    "venue": "Estadio Azteca"
+  },
+  {
+    "competition": "wc2026",
+    "group": "A",
+    "round": "3",
+    "date": "25. juuni",
+    "time": "0:00",
+    "ts": "2026-06-24T21:00Z",
+    "home_team": {
+      "name_eng": "South Africa",
+      "name": "Lõuna-Aafrika Vabariik",
+      "code": "zaf",
+      "group": "A"
+    },
+    "away_team": {
+      "name_eng": "South Korea",
+      "name": "Lõuna-Korea",
+      "code": "kor",
+      "group": "A"
+    },
+    "city": "Monterrey",
+    "venue": "Estadio BBVA"
+  },
+  {
+    "competition": "wc2026",
+    "group": "B",
+    "round": "3",
+    "date": "25. juuni",
+    "time": "3:00",
+    "ts": "2026-06-25T0:00Z",
+    "home_team": {
+      "name_eng": "Bosnia & Herzegovina",
+      "name": "Bosnia ja Hertsegoviina",
+      "code": "bih",
+      "group": "B"
+    },
+    "away_team": {
+      "name_eng": "Qatar",
+      "name": "Katar",
+      "code": "qat",
+      "group": "B"
+    },
+    "city": "Seattle",
+    "venue": "Lumen Field"
+  },
+  {
+    "competition": "wc2026",
+    "group": "B",
+    "round": "3",
+    "date": "25. juuni",
+    "time": "3:00",
+    "ts": "2026-06-25T0:00Z",
+    "home_team": {
+      "name_eng": "Switzerland",
+      "name": "Šveits",
+      "code": "che",
+      "group": "B"
+    },
+    "away_team": {
+      "name_eng": "Canada",
+      "name": "Kanada",
+      "code": "can",
+      "group": "B"
+    },
+    "city": "Vancouver",
+    "venue": "BC Place"
+  },
+  {
+    "competition": "wc2026",
+    "group": "E",
+    "round": "3",
+    "date": "26. juuni",
+    "time": "0:00",
+    "ts": "2026-06-25T21:00Z",
+    "home_team": {
+      "name_eng": "Ecuador",
+      "name": "Ecuador",
+      "code": "ecu",
+      "group": "E"
+    },
+    "away_team": {
+      "name_eng": "Germany",
+      "name": "Saksamaa",
+      "code": "deu",
+      "group": "E"
+    },
+    "city": "New York / New Jersey",
+    "venue": "MetLife Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "E",
+    "round": "3",
+    "date": "26. juuni",
+    "time": "0:00",
+    "ts": "2026-06-25T21:00Z",
+    "home_team": {
+      "name_eng": "Curaçao",
+      "name": "Curaçao",
+      "code": "cuw",
+      "group": "E"
+    },
+    "away_team": {
+      "name_eng": "Côte d'Ivoire",
+      "name": "Elevandiluurannik",
+      "code": "civ",
+      "group": "E"
+    },
+    "city": "Philadelphia",
+    "venue": "Lincoln Financial Field"
+  },
+  {
+    "competition": "wc2026",
+    "group": "F",
+    "round": "3",
+    "date": "26. juuni",
+    "time": "3:00",
+    "ts": "2026-06-26T0:00Z",
+    "home_team": {
+      "name_eng": "Japan",
+      "name": "Jaapan",
+      "code": "jpn",
+      "group": "F"
+    },
+    "away_team": {
+      "name_eng": "Tunisia",
+      "name": "Tuneesia",
+      "code": "tun",
+      "group": "F"
+    },
+    "city": "Dallas",
+    "venue": "AT&T Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "F",
+    "round": "3",
+    "date": "26. juuni",
+    "time": "3:00",
+    "ts": "2026-06-26T0:00Z",
+    "home_team": {
+      "name_eng": "Sweden",
+      "name": "Rootsi",
+      "code": "swe",
+      "group": "F"
+    },
+    "away_team": {
+      "name_eng": "Netherlands",
+      "name": "Holland",
+      "code": "nld",
+      "group": "F"
+    },
+    "city": "Kansas City",
+    "venue": "Arrowhead Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "D",
+    "round": "3",
+    "date": "26. juuni",
+    "time": "6:00",
+    "ts": "2026-06-26T3:00Z",
+    "home_team": {
+      "name_eng": "Türkiye",
+      "name": "Türgi",
+      "code": "tur",
+      "group": "D"
+    },
+    "away_team": {
+      "name_eng": "USA",
+      "name": "Ameerika Ühendriigid",
+      "code": "usa",
+      "group": "D"
+    },
+    "city": "Los Angeles",
+    "venue": "SoFi Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "D",
+    "round": "3",
+    "date": "26. juuni",
+    "time": "6:00",
+    "ts": "2026-06-26T3:00Z",
+    "home_team": {
+      "name_eng": "Paraguay",
+      "name": "Paraguay",
+      "code": "pry",
+      "group": "D"
+    },
+    "away_team": {
+      "name_eng": "Australia",
+      "name": "Austraalia",
+      "code": "aus",
+      "group": "D"
+    },
+    "city": "San Francisco Bay Area",
+    "venue": "Levi's Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "I",
+    "round": "3",
+    "date": "26. juuni",
+    "time": "22:00",
+    "ts": "2026-06-26T19:00Z",
+    "home_team": {
+      "name_eng": "Norway",
+      "name": "Norra",
+      "code": "nor",
+      "group": "I"
+    },
+    "away_team": {
+      "name_eng": "France",
+      "name": "Prantsusmaa",
+      "code": "fra",
+      "group": "I"
+    },
+    "city": "Boston",
+    "venue": "Gillette Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "I",
+    "round": "3",
+    "date": "26. juuni",
+    "time": "22:00",
+    "ts": "2026-06-26T19:00Z",
+    "home_team": {
+      "name_eng": "Senegal",
+      "name": "Senegal",
+      "code": "sen",
+      "group": "I"
+    },
+    "away_team": {
+      "name_eng": "Iraq",
+      "name": "Iraak",
+      "code": "irq",
+      "group": "I"
+    },
+    "city": "Toronto",
+    "venue": "BMO Field"
+  },
+  {
+    "competition": "wc2026",
+    "group": "H",
+    "round": "3",
+    "date": "27. juuni",
+    "time": "1:00",
+    "ts": "2026-06-26T22:00Z",
+    "home_team": {
+      "name_eng": "Uruguay",
+      "name": "Uruguay",
+      "code": "ury",
+      "group": "H"
+    },
+    "away_team": {
+      "name_eng": "Spain",
+      "name": "Hispaania",
+      "code": "esp",
+      "group": "H"
+    },
+    "city": "Guadalajara",
+    "venue": "Estadio Akron"
+  },
+  {
+    "competition": "wc2026",
+    "group": "H",
+    "round": "3",
+    "date": "27. juuni",
+    "time": "3:00",
+    "ts": "2026-06-27T0:00Z",
+    "home_team": {
+      "name_eng": "Cabo Verde",
+      "name": "Cabo Verde",
+      "code": "cpv",
+      "group": "H"
+    },
+    "away_team": {
+      "name_eng": "Saudi Arabia",
+      "name": "Saudi Araabia",
+      "code": "sau",
+      "group": "H"
+    },
+    "city": "Houston",
+    "venue": "NRG Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "G",
+    "round": "3",
+    "date": "27. juuni",
+    "time": "6:00",
+    "ts": "2026-06-27T3:00Z",
+    "home_team": {
+      "name_eng": "Egypt",
+      "name": "Egiptus",
+      "code": "egy",
+      "group": "G"
+    },
+    "away_team": {
+      "name_eng": "Iran",
+      "name": "Iraan",
+      "code": "irn",
+      "group": "G"
+    },
+    "city": "Seattle",
+    "venue": "Lumen Field"
+  },
+  {
+    "competition": "wc2026",
+    "group": "G",
+    "round": "3",
+    "date": "27. juuni",
+    "time": "6:00",
+    "ts": "2026-06-27T3:00Z",
+    "home_team": {
+      "name_eng": "New Zealand",
+      "name": "Uus-Meremaa",
+      "code": "nzl",
+      "group": "G"
+    },
+    "away_team": {
+      "name_eng": "Belgium",
+      "name": "Belgia",
+      "code": "bel",
+      "group": "G"
+    },
+    "city": "Vancouver",
+    "venue": "BC Place"
+  },
+  {
+    "competition": "wc2026",
+    "group": "L",
+    "round": "3",
+    "date": "28. juuni",
+    "time": "0:00",
+    "ts": "2026-06-27T21:00Z",
+    "home_team": {
+      "name_eng": "Panama",
+      "name": "Panama",
+      "code": "pan",
+      "group": "L"
+    },
+    "away_team": {
+      "name_eng": "England",
+      "name": "Inglismaa",
+      "code": "eng",
+      "group": "L"
+    },
+    "city": "New York / New Jersey",
+    "venue": "MetLife Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "L",
+    "round": "3",
+    "date": "28. juuni",
+    "time": "0:00",
+    "ts": "2026-06-27T21:00Z",
+    "home_team": {
+      "name_eng": "Croatia",
+      "name": "Horvaatia",
+      "code": "hrv",
+      "group": "L"
+    },
+    "away_team": {
+      "name_eng": "Ghana",
+      "name": "Ghana",
+      "code": "gha",
+      "group": "L"
+    },
+    "city": "Philadelphia",
+    "venue": "Lincoln Financial Field"
+  },
+  {
+    "competition": "wc2026",
+    "group": "J",
+    "round": "3",
+    "date": "28. juuni",
+    "time": "3:00",
+    "ts": "2026-06-28T0:00Z",
+    "home_team": {
+      "name_eng": "Jordan",
+      "name": "Jordaania",
+      "code": "jor",
+      "group": "J"
+    },
+    "away_team": {
+      "name_eng": "Argentina",
+      "name": "Argentina",
+      "code": "arg",
+      "group": "J"
+    },
+    "city": "Dallas",
+    "venue": "AT&T Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "J",
+    "round": "3",
+    "date": "28. juuni",
+    "time": "3:00",
+    "ts": "2026-06-28T0:00Z",
+    "home_team": {
+      "name_eng": "Algeria",
+      "name": "Alžeeria",
+      "code": "dza",
+      "group": "J"
+    },
+    "away_team": {
+      "name_eng": "Austria",
+      "name": "Austria",
+      "code": "aut",
+      "group": "J"
+    },
+    "city": "Kansas City",
+    "venue": "Arrowhead Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "K",
+    "round": "3",
+    "date": "28. juuni",
+    "time": "5:30",
+    "ts": "2026-06-28T2:30Z",
+    "home_team": {
+      "name_eng": "Congo DR",
+      "name": "Kongo Demokraatlik Vabariik",
+      "code": "cod",
+      "group": "K"
+    },
+    "away_team": "Uzbekistan",
+    "city": "Atlanta",
+    "venue": "Mercedes-Benz Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "K",
+    "round": "3",
+    "date": "28. juuni",
+    "time": "5:30",
+    "ts": "2026-06-28T2:30Z",
+    "home_team": {
+      "name_eng": "Colombia",
+      "name": "Colombia",
+      "code": "col",
+      "group": "K"
+    },
+    "away_team": {
+      "name_eng": "Portugal",
+      "name": "Portugal",
+      "code": "prt",
+      "group": "K"
+    },
+    "city": "Miami",
+    "venue": "Hard Rock Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "L32",
+    "round": "4",
+    "date": "29. juuni",
+    "time": "0:00",
+    "ts": "2026-06-28T21:00Z",
+    "home_team": "A2",
+    "away_team": "B2",
+    "city": "Los Angeles",
+    "venue": "SoFi Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "L32",
+    "round": "4",
+    "date": "29. juuni",
+    "time": "18:00",
+    "ts": "2026-06-29T15:00Z",
+    "home_team": "E1",
+    "away_team": "ABCDFD3",
+    "city": "Boston",
+    "venue": "Gillette Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "L32",
+    "round": "4",
+    "date": "29. juuni",
+    "time": "21:00",
+    "ts": "2026-06-29T18:00Z",
+    "home_team": "F1",
+    "away_team": "C2",
+    "city": "Monterrey",
+    "venue": "Estadio BBVA"
+  },
+  {
+    "competition": "wc2026",
+    "group": "L32",
+    "round": "4",
+    "date": "30. juuni",
+    "time": "0:00",
+    "ts": "2026-06-29T21:00Z",
+    "home_team": "C1",
+    "away_team": "F2",
+    "city": "Houston",
+    "venue": "NRG Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "L32",
+    "round": "4",
+    "date": "30. juuni",
+    "time": "18:00",
+    "ts": "2026-06-30T15:00Z",
+    "home_team": "I1",
+    "away_team": "CD1",
+    "city": "New York / New Jersey",
+    "venue": "MetLife Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "L32",
+    "round": "4",
+    "date": "30. juuni",
+    "time": "21:00",
+    "ts": "2026-06-30T18:00Z",
+    "home_team": "E2",
+    "away_team": "I2",
+    "city": "Dallas",
+    "venue": "AT&T Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "L32",
+    "round": "4",
+    "date": "1. juuli",
+    "time": "0:00",
+    "ts": "2026-06-30T21:00Z",
+    "home_team": "A1",
+    "away_team": "CFH3",
+    "city": "Mexico City",
+    "venue": "Estadio Azteca"
+  },
+  {
+    "competition": "wc2026",
+    "group": "L32",
+    "round": "4",
+    "date": "1. juuli",
+    "time": "18:00",
+    "ts": "2026-07-01T15:00Z",
+    "home_team": "L1",
+    "away_team": "EH1",
+    "city": "Atlanta",
+    "venue": "Mercedes-Benz Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "L32",
+    "round": "4",
+    "date": "1. juuli",
+    "time": "21:00",
+    "ts": "2026-07-01T18:00Z",
+    "home_team": "D1",
+    "away_team": "BEFIJ3",
+    "city": "San Francisco Bay Area",
+    "venue": "Levi's Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "L32",
+    "round": "4",
+    "date": "2. juuli",
+    "time": "0:00",
+    "ts": "2026-07-01T21:00Z",
+    "home_team": "G1",
+    "away_team": "AEHIJ3",
+    "city": "Seattle",
+    "venue": "Lumen Field"
+  },
+  {
+    "competition": "wc2026",
+    "group": "L32",
+    "round": "4",
+    "date": "2. juuli",
+    "time": "18:00",
+    "ts": "2026-07-02T15:00Z",
+    "home_team": "K2",
+    "away_team": "L2",
+    "city": "Toronto",
+    "venue": "BMO Field"
+  },
+  {
+    "competition": "wc2026",
+    "group": "L32",
+    "round": "4",
+    "date": "2. juuli",
+    "time": "21:00",
+    "ts": "2026-07-02T18:00Z",
+    "home_team": "H1",
+    "away_team": "J2",
+    "city": "Los Angeles",
+    "venue": "SoFi Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "L32",
+    "round": "4",
+    "date": "3. juuli",
+    "time": "0:00",
+    "ts": "2026-07-02T21:00Z",
+    "home_team": "B1",
+    "away_team": "EF3",
+    "city": "Vancouver",
+    "venue": "BC Place"
+  },
+  {
+    "competition": "wc2026",
+    "group": "L32",
+    "round": "4",
+    "date": "3. juuli",
+    "time": "18:00",
+    "ts": "2026-07-03T15:00Z",
+    "home_team": "J1",
+    "away_team": "H2",
+    "city": "Miami",
+    "venue": "Hard Rock Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "L32",
+    "round": "4",
+    "date": "3. juuli",
+    "time": "21:00",
+    "ts": "2026-07-03T18:00Z",
+    "home_team": "K1",
+    "away_team": "DEJ3",
+    "city": "Kansas City",
+    "venue": "Arrowhead Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "L32",
+    "round": "4",
+    "date": "4. juuli",
+    "time": "0:00",
+    "ts": "2026-07-03T21:00Z",
+    "home_team": "D2",
+    "away_team": "G2",
+    "city": "Dallas",
+    "venue": "AT&T Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "L16",
+    "round": "5",
+    "date": "4. juuli",
+    "time": "21:00",
+    "ts": "2026-07-04T18:00Z",
+    "home_team": "Winner 74",
+    "away_team": "Winner 77",
+    "city": "Philadelphia",
+    "venue": "Lincoln Financial Field"
+  },
+  {
+    "competition": "wc2026",
+    "group": "L16",
+    "round": "5",
+    "date": "5. juuli",
+    "time": "0:00",
+    "ts": "2026-07-04T21:00Z",
+    "home_team": "Winner 73",
+    "away_team": "Winner 75",
+    "city": "Houston",
+    "venue": "NRG Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "L16",
+    "round": "5",
+    "date": "5. juuli",
+    "time": "21:00",
+    "ts": "2026-07-05T18:00Z",
+    "home_team": "Winner 76",
+    "away_team": "Winner 78",
+    "city": "New York / New Jersey",
+    "venue": "MetLife Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "L16",
+    "round": "5",
+    "date": "6. juuli",
+    "time": "0:00",
+    "ts": "2026-07-05T21:00Z",
+    "home_team": "Winner 79",
+    "away_team": "Winner 80",
+    "city": "Mexico City",
+    "venue": "Estadio Azteca"
+  },
+  {
+    "competition": "wc2026",
+    "group": "L16",
+    "round": "5",
+    "date": "6. juuli",
+    "time": "21:00",
+    "ts": "2026-07-06T18:00Z",
+    "home_team": "Winner 83",
+    "away_team": "Winner 84",
+    "city": "Dallas",
+    "venue": "AT&T Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "L16",
+    "round": "5",
+    "date": "7. juuli",
+    "time": "0:00",
+    "ts": "2026-07-06T21:00Z",
+    "home_team": "Winner 81",
+    "away_team": "Winner 82",
+    "city": "Seattle",
+    "venue": "Lumen Field"
+  },
+  {
+    "competition": "wc2026",
+    "group": "L16",
+    "round": "5",
+    "date": "7. juuli",
+    "time": "21:00",
+    "ts": "2026-07-07T18:00Z",
+    "home_team": "Winner 86",
+    "away_team": "Winner 88",
+    "city": "Atlanta",
+    "venue": "Mercedes-Benz Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "L16",
+    "round": "5",
+    "date": "8. juuli",
+    "time": "0:00",
+    "ts": "2026-07-07T21:00Z",
+    "home_team": "Winner 85",
+    "away_team": "Winner 87",
+    "city": "Vancouver",
+    "venue": "BC Place"
+  },
+  {
+    "competition": "wc2026",
+    "group": "QF",
+    "round": "6",
+    "date": "9. juuli",
+    "time": "21:00",
+    "ts": "2026-07-09T18:00Z",
+    "home_team": "Winner 89",
+    "away_team": "Winner 90",
+    "city": "Boston",
+    "venue": "Gillette Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "QF",
+    "round": "6",
+    "date": "11. juuli",
+    "time": "0:00",
+    "ts": "2026-07-10T21:00Z",
+    "home_team": "Winner 93",
+    "away_team": "Winner 94",
+    "city": "Los Angeles",
+    "venue": "SoFi Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "QF",
+    "round": "6",
+    "date": "11. juuli",
+    "time": "21:00",
+    "ts": "2026-07-11T18:00Z",
+    "home_team": "Winner 91",
+    "away_team": "Winner 92",
+    "city": "Miami",
+    "venue": "Hard Rock Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "QF",
+    "round": "6",
+    "date": "12. juuli",
+    "time": "0:00",
+    "ts": "2026-07-11T21:00Z",
+    "home_team": "Winner 95",
+    "away_team": "Winner 96",
+    "city": "Kansas City",
+    "venue": "Arrowhead Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "SF",
+    "round": "7",
+    "date": "14. juuli",
+    "time": "23:00",
+    "ts": "2026-07-14T20:00Z",
+    "home_team": "Winner 97",
+    "away_team": "Winner 98",
+    "city": "Dallas",
+    "venue": "AT&T Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "SF",
+    "round": "7",
+    "date": "15. juuli",
+    "time": "23:00",
+    "ts": "2026-07-15T20:00Z",
+    "home_team": "Winner 99",
+    "away_team": "Winner 100",
+    "city": "Atlanta",
+    "venue": "Mercedes-Benz Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "FI",
+    "round": "8",
+    "date": "18. juuli",
+    "time": "23:00",
+    "ts": "2026-07-18T20:00Z",
+    "home_team": "Loser 101",
+    "away_team": "Loser 102",
+    "city": "Miami",
+    "venue": "Hard Rock Stadium"
+  },
+  {
+    "competition": "wc2026",
+    "group": "FI",
+    "round": "8",
+    "date": "19. juuli",
+    "time": "23:00",
+    "ts": "2026-07-19T20:00Z",
+    "home_team": "Winner 101",
+    "away_team": "Winner 102",
+    "city": "New York / New Jersey",
+    "venue": "MetLife Stadium"
+  }
 ]

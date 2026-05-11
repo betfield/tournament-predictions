@@ -9,7 +9,7 @@ export default class Footer extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
-                                Copyright &copy; MTÜ FC Twister 2024
+                                Copyright &copy; FC Twister 2026
                             </div>
                         </div>
                     </div>

@@ -26,7 +26,7 @@ export default function Activate() {
                                 Hiljemalt 24h peale osavõtutasu laekumist aktiveeritakse sinu ennustus ning osaled mängus.<br/>
                                 <br/>
                                 NB! Aktiveerimise kohta saadetakse ka eraldi teavitus mailile FC Twister Admin kontolt. Kui kirja pole 24h jooksul peale ülekannet saabunud, siis palun kontrolli esmalt üle oma rämpsposti kaustad.<br/>
-                                Kui selgub, et kiri on sattunud räpsposti, siis märgi see palun ära ohutute saatjate listi, et edaspidised mailisõnumid sinuni probleemideta jõuaksid. Kui ka rämpspostist kirja ei leidnud, siis võta ühendust korraldajatega aadressil info [at] fctwister . ee<br/>
+                                Kui selgub, et kiri on sattunud räpsposti, siis märgi see palun ära ohutute saatjate listi, et edaspidised mailisõnumid sinuni probleemideta jõuaksid. Kui ka rämpspostist kirja ei leidnud, siis võta ühendust korraldajatega aadressil fctwister [at] nr8 . ee<br/>
                                 <br/>
                                 *Kui sinu osavõtutasu ei ole tähtajaks laekunud, siis ennustus arvesse ei lähe ning hiljem laekunud tasud kantakse samale arvele tagasi.
                             </div>

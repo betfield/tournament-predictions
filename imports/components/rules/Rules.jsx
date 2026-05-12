@@ -26,7 +26,7 @@ export default function Rules() {
                                 <li>
                                     Hiljemalt 24h peale osavõtutasu laekumist aktiveeritakse sinu ennustus ning osaled mängus. Ennustuse staatus on näidatud profiilinime all olevas tekstis. 
                                 </li>
-                                <li>NB! Aktiveerimise kohta saadetakse ka eraldi teavitus mailile FC Twister Admin kontolt. Kui kirja pole 24h jooksul peale ülekannet saabunud, siis palun kontrolli esmalt üle oma rämpsposti kaustad. Kui selgub, et kiri on sattunud räpsposti, siis märgi see palun ära ohutute saatjate listi, et edaspidised mailisõnumid sinuni probleemideta jõuaksid. Kui ka rämpspostist kirja ei leidnud, siis võta ühendust korraldajatega aadressil info [at] fctwister . ee<br/></li>
+                                <li>NB! Aktiveerimise kohta saadetakse ka eraldi teavitus mailile FC Twister Admin kontolt. Kui kirja pole 24h jooksul peale ülekannet saabunud, siis palun kontrolli esmalt üle oma rämpsposti kaustad. Kui selgub, et kiri on sattunud räpsposti, siis märgi see palun ära ohutute saatjate listi, et edaspidised mailisõnumid sinuni probleemideta jõuaksid. Kui ka rämpspostist kirja ei leidnud, siis võta ühendust korraldajatega aadressil fctwister [at] nr8 . ee<br/></li>
                             </ul>
                             <br/>
                             <h4>Kes osaleda võivad?</h4>
@@ -39,7 +39,7 @@ export default function Rules() {
                                     Üks mängija võib omada mitut ennustust, mis tähendab, et soovi korral võib registreerida läbi kõigi enda nimel eksisteerivate kontode. Iga ennustuse eest on vajalik tasuda eraldi osavõtutasu. 
                                 </li>
                                 <li>
-                                    Ennustusmängu korraldajad kinnitavad, et ühegi kasutaja andmeid süsteemiväliselt ei levitata ega muul otstarbel ei kasutata. Täpsema info kohta, milliseid isikuga seotud andmeid süsteem kasutab, palume ühendust võtta emaili teel: info [at] fctwister . ee
+                                    Ennustusmängu korraldajad kinnitavad, et ühegi kasutaja andmeid süsteemiväliselt ei levitata ega muul otstarbel ei kasutata. Täpsema info kohta, milliseid isikuga seotud andmeid süsteem kasutab, palume ühendust võtta emaili teel: fctwister [at] nr8 . ee
                                 </li>
                                 <li>
                                     <strong>Iga mängija vastutab oma ennustusvõistluse osaluse eest ise. Kui sul vanust vähem kui 21 või tunned, et osavõtumaksu tasumine tekitab finantsilisi probleeme, siis ära mängi!</strong>
@@ -55,15 +55,16 @@ export default function Rules() {
                                     Ennustatakse turniiri iga mängu normaalaja skoori.
                                 </li>
                                 <li>
-                                    Ennustusvõistlus on jagatud seitsmeks (7) vooruks, vastavalt sellele, kui palju mänge peab üks meeskond mängima, et tulla Euroopa meistriks. Need voorud koosnevad järgmistest osadest:
+                                    Ennustusvõistlus on jagatud kaheksaks (8) vooruks, vastavalt sellele, kui palju mänge peab üks meeskond mängima, et tulla maailmameistriks. Need voorud koosnevad järgmistest osadest:
                                     <ul>
                                         <li>I voor - iga meeskonna 1. alagrupimäng</li>
                                         <li>II voor - iga meeskonna 2. alagrupimäng</li>
                                         <li>III voor - iga meeskonna 3. alagrupimäng</li>
-                                        <li>IV voor - kaheksandikfinaalid</li>
-                                        <li>V voor - veerandfinaalid</li>
-                                        <li>VI voor - poolfinaalid</li>
-                                        <li>VII voor - finaal</li>
+                                        <li>IV voor - 1/16 finaalid</li>
+                                        <li>V voor - kaheksandikfinaalid</li>
+                                        <li>VI voor - veerandfinaalid</li>
+                                        <li>VII voor - poolfinaalid</li>
+                                        <li>VIII voor - finaal ja 3. koha mäng</li>
                                     </ul>
                                 </li>
                                 <li>
@@ -76,7 +77,7 @@ export default function Rules() {
                                     Alagrupivoorude tulemusi on võimalik ette täita ka enne eelmise vooru lukustumist. Finaalide ennustuste sisestamine muutub võimalikuks peale vastavate kohtumiste meeskondade selgumist.
                                 </li>
                                 <li>
-                                    Kokku koosneb ennustus 51 mängust, st kõik finaalturniiri kohtumised lähevad arvesse.
+                                    Kokku koosneb ennustus 104 mängust, st kõik MM finaalturniiri kohtumised lähevad arvesse.
                                 </li>
                                 <li>
                                     Kui mõni mäng peaks minema lisaajale, siis lisaaja tulemused käesolevat ennustusmängu kuidagi ei mõjuta.
@@ -97,10 +98,10 @@ export default function Rules() {
                                     </ul>
                                 </li>
                                 <li>
-                                    Kõik veerand- ning poolfinaalide eest saadud punktid korrutatakse 2-ga ning finaali tulemused korrutatakse 3-ga. See tähendab, et iga veerand- ja poolfinaali mängu normaalaja skoori õigesti ennustamine annab 10 punkti (õige võitja 4 punkti, õige väravate vahe 2 punkti) ning finaali õige skoor 15 punkti (õige võitja 6 punkti, õige väravate vahe 3 punkti). 
+                                    Kõik veerand- ning poolfinaalide eest saadud punktid korrutatakse 2-ga ning finaalide tulemused korrutatakse 3-ga. See tähendab, et iga veerand- ja poolfinaali mängu normaalaja skoori õigesti ennustamine annab 10 punkti (õige võitja 4 punkti, õige väravate vahe 2 punkti) ning finaali ja 3. koha mängu õige skoor 15 punkti (õige võitja 6 punkti, õige väravate vahe 3 punkti). 
                                 </li>
                                 <li>
-                                    Kokku on seega võimalik teenida maksimaalselt 44 x 5 + 6 x 10 + 1 x 15 = 295 punkti.
+                                    Kokku on seega võimalik teenida maksimaalselt 96 x 5 + 6 x 10 + 2 x 15 = 570 punkti.
                                 </li>
                                 <li>
                                     Mängu paremusjärjestus moodustatakse mängijate ennustuste pealt teenitud punktide kogusumma alusel (suurem summa tagab kõrgema koha).
@@ -115,10 +116,10 @@ export default function Rules() {
                                     </ul>
                                 </li>
                                 <li>
-                                    Lisaks lõplikule paremusjärjestusele on võimalik saada ka "eriauhind" järgnevate voorude võitude eest: I, II, III, (IV + V). Lahti seletades tähendab see, et selgitame välja 4 eriauhinda: üks auhind iga alagrupivooru parimale ning eraldi ka üks auhind kõigi kaheksandik- ja veerandfinaalide kokkuvõttes parimale ennustajale. Iga eriauhinna väärtuseks on ennustusmängu sisseostu summa (€25). Üks mängija võib saada ka mitu eriauhinda. 
+                                    Lisaks lõplikule paremusjärjestusele on võimalik saada ka "eriauhind" järgnevate voorude võitude eest: I, II, III, (IV + V), (VI + VII + VIII). Lahti seletades tähendab see, et selgitame välja 5 eriauhinda: üks auhind iga alagrupivooru parimale, üks auhind 1/16 ja kaheksandikfinaalide parimale, ning üks auhind ülejäänud finaalide kokkuvõttes parimale ennustajale. Iga eriauhinna väärtuseks on ennustusmängu sisseostu summa (€25). Üks mängija võib saada ka mitu eriauhinda. 
                                 </li>
                                 <li>
-                                    Peale eriauhindade ja korralduskulude mahaarvestamist toimub ülejäänud auhinnafondi jagamine ennustusmängu paremate vahel vastavalt laialt levinud turniiripokkeri väljamakse skeemile, mille leiab <a href="http://www.wsop.com/how-to-play-poker/mtt-tournament-payouts/" target="_blank">siit</a>.
+                                    Peale eriauhindade ja korralduskulude mahaarvestamist toimub ülejäänud auhinnafondi jagamine ennustusmängu paremate vahel vastavalt laialt levinud turniiripokkeri väljamakse skeemile, mille leiab <a href="https://wptmedia.wpt.com/wp-content/uploads/2016/02/WPT-Payout-Structure-B.pdf" target="_blank">siit</a>.
                                 </li>
                                 <li>
                                     Näide: 31-40 osaleja puhul jaguneks auhinnafond antud tabeli järgi järgmiselt: 
@@ -137,15 +138,15 @@ export default function Rules() {
                                             </tr>
                                             <tr>
                                                 <td>II</td>
-                                                <td>25%</td>
+                                                <td>28%</td>
                                             </tr>
                                             <tr>
                                                 <td>III</td>
-                                                <td>20%</td>
+                                                <td>18%</td>
                                             </tr>
                                             <tr>
                                                 <td>IV</td>
-                                                <td>15%</td>
+                                                <td>14%</td>
                                             </tr>
                                         </tbody>
                                     </table>

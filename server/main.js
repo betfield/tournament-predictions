@@ -28,6 +28,7 @@ import './methods/users';
  * 3) Add automatic email reminders 1 day before round and register end dates
  * 4) Add statistics per fixture (how many people predicted same score) and include prediction?
  * 5) Implement message board
+ * 6) Import fixtures to use local time/date based on UTC timestamp (similar to formatRoundDate for emails)
  * ...
  *  
  */

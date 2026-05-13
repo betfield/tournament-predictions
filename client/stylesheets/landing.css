@@ -214,9 +214,9 @@
 #landing .btn-outline:focus,
 #landing .btn-outline:active,
 #landing .btn-outline.active {
-    border: solid 2px #F9BF4B;
-    color: #F9BF4B;
-    background: #143cdb;
+    border: solid 2px #fff;
+    color: #fff;
+    background: #3082fe;
 }
 
 #landing .floating-label-form-group {

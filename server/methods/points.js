@@ -5,7 +5,8 @@ let initialPoints = {
 	"round4": 	0, 
 	"round5": 	0, 
 	"round6": 	0, 
-	"round7": 	0, 
+	"round7": 	0,
+	"round8": 	0, 
 	"total": 	0 
 }
 
@@ -145,9 +146,9 @@ userFixturePoints = (userResult, fixtureResult, round) => {
 	}
 
 	// Multiply points based on rounds where QF and SF awards x2 and Finals award x3 points
-	if (round === 5 || round === 6) {
+	if (round === 6 || round === 7) {
 		points *= 2;
-	} else if (round === 7) {
+	} else if (round === 8) {
 		points *= 3;
 	}
 
@@ -162,7 +163,7 @@ updateUserPoints = (userId) => {
 	let predictions = Predictions.find({"userId": userId}, {fields: {"fixture._id": 1, "fixture.userPoints": 1}}).fetch(); 
 	let fixtures = Fixtures.find({}, {fields: {"_id": 1, "round": 1}}).fetch(); 
 
-	let points = [0,0,0,0,0,0,0];
+	let points = [0,0,0,0,0,0,0,0];
 
 	fixtures.forEach(fixture => {
 		let i = parseInt(fixture.round,10);
@@ -180,7 +181,7 @@ updateUserPoints = (userId) => {
 	});
 
 	serverLog("Total points for user: " + userId + ", values: " + points)
-	Points.update({"user._id": userId}, {$set: {"round1": points[0], "round2": points[1], "round3": points[2], "round4": points[3], "round5": points[4], "round6": points[5], "round7": points[6], "total": total}});
+	Points.update({"user._id": userId}, {$set: {"round1": points[0], "round2": points[1], "round3": points[2], "round4": points[3], "round5": points[4], "round6": points[5], "round7": points[6], "round8": points[7], "total": total}});
 }
 
 updateTablePositions = () => {

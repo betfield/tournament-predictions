@@ -13,7 +13,7 @@
 }
 
 #landing .navbar-default {
-    background: #000d40;
+    background: #000000;
 }
 
 #landing .navbar-default .navbar-nav > li > a:hover,
@@ -41,7 +41,7 @@
 #landing header {
     text-align: left;
     color: #fff;
-    background: #143cdb;
+    background: #304ffe;
 }
 
 #landing header .container {

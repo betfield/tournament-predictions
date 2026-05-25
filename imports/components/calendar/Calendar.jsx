@@ -97,7 +97,7 @@ export default class Calendar extends Component {
 				editable: false,
 				droppable: false, // this allows things to be dropped onto the calendar
 				events: calendar_fixtures,
-				minTime: '12:00:00',
+				minTime: '00:00:00',
 				aspectRatio: 'auto', // ratio of width-to-height - larger numbers make smaller heights
 				timeFormat: 'HH:mm', // uppercase H for 24-hour clock
 				timezone: 'local',

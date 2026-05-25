@@ -15,7 +15,7 @@ export const fixtures =
     },
     "away_team": {
       "name_eng": "South Africa",
-      "name": "Lõuna-Aafrika Vabariik",
+      "name": "LAV",
       "code": "zaf",
       "group": "A"
     },
@@ -31,7 +31,7 @@ export const fixtures =
     "ts": "2026-06-12T02:00Z",
     "home_team": {
       "name_eng": "South Korea",
-      "name": "Lõuna-Korea",
+      "name": "L-Korea",
       "code": "kor",
       "group": "A"
     },
@@ -59,7 +59,7 @@ export const fixtures =
     },
     "away_team": {
       "name_eng": "Bosnia & Herzegovina",
-      "name": "Bosnia ja Hertsegoviina",
+      "name": "Bosnia & Herts.",
       "code": "bih",
       "group": "B"
     },
@@ -75,7 +75,7 @@ export const fixtures =
     "ts": "2026-06-13T01:00Z",
     "home_team": {
       "name_eng": "USA",
-      "name": "Ameerika Ühendriigid",
+      "name": "USA",
       "code": "usa",
       "group": "D"
     },
@@ -455,7 +455,7 @@ export const fixtures =
     },
     "away_team": {
       "name_eng": "Congo DR",
-      "name": "Kongo Demokraatlik Vabariik",
+      "name": "Kongo DV",
       "code": "cod",
       "group": "K"
     },
@@ -543,7 +543,7 @@ export const fixtures =
     },
     "away_team": {
       "name_eng": "South Africa",
-      "name": "Lõuna-Aafrika Vabariik",
+      "name": "LAV",
       "code": "zaf",
       "group": "A"
     },
@@ -565,7 +565,7 @@ export const fixtures =
     },
     "away_team": {
       "name_eng": "Bosnia & Herzegovina",
-      "name": "Bosnia ja Hertsegoviina",
+      "name": "Bosnia & Herts.",
       "code": "bih",
       "group": "B"
     },
@@ -609,7 +609,7 @@ export const fixtures =
     },
     "away_team": {
       "name_eng": "South Korea",
-      "name": "Lõuna-Korea",
+      "name": "L-Korea",
       "code": "kor",
       "group": "A"
     },
@@ -625,7 +625,7 @@ export const fixtures =
     "ts": "2026-06-19T19:00Z",
     "home_team": {
       "name_eng": "USA",
-      "name": "Ameerika Ühendriigid",
+      "name": "USA",
       "code": "usa",
       "group": "D"
     },
@@ -1005,7 +1005,7 @@ export const fixtures =
     },
     "away_team": {
       "name_eng": "Congo DR",
-      "name": "Kongo Demokraatlik Vabariik",
+      "name": "Kongo DV",
       "code": "cod",
       "group": "K"
     },
@@ -1131,13 +1131,13 @@ export const fixtures =
     "ts": "2026-06-25T01:00Z",
     "home_team": {
       "name_eng": "South Africa",
-      "name": "Lõuna-Aafrika Vabariik",
+      "name": "LAV",
       "code": "zaf",
       "group": "A"
     },
     "away_team": {
       "name_eng": "South Korea",
-      "name": "Lõuna-Korea",
+      "name": "L-Korea",
       "code": "kor",
       "group": "A"
     },
@@ -1153,7 +1153,7 @@ export const fixtures =
     "ts": "2026-06-24T19:00Z",
     "home_team": {
       "name_eng": "Bosnia & Herzegovina",
-      "name": "Bosnia ja Hertsegoviina",
+      "name": "Bosnia & Herts.",
       "code": "bih",
       "group": "B"
     },
@@ -1291,7 +1291,7 @@ export const fixtures =
     },
     "away_team": {
       "name_eng": "USA",
-      "name": "Ameerika Ühendriigid",
+      "name": "USA",
       "code": "usa",
       "group": "D"
     },
@@ -1549,7 +1549,7 @@ export const fixtures =
     "ts": "2026-06-27T23:30Z",
     "home_team": {
       "name_eng": "Congo DR",
-      "name": "Kongo Demokraatlik Vabariik",
+      "name": "Kongo DV",
       "code": "cod",
       "group": "K"
     },
@@ -1604,7 +1604,7 @@ export const fixtures =
     "time": "23:30",
     "ts": "2026-06-29T20:30Z",
     "home_team": "E1",
-    "away_team": "ABCDFD3",
+    "away_team": "ABCDF3",
     "city": "Boston",
     "venue": "Gillette Stadium"
   },
@@ -1640,7 +1640,7 @@ export const fixtures =
     "time": "00:00",
     "ts": "2026-06-30T21:00Z",
     "home_team": "I1",
-    "away_team": "CD1",
+    "away_team": "CDFGH3",
     "city": "New York / New Jersey",
     "venue": "MetLife Stadium"
   },
@@ -1664,7 +1664,7 @@ export const fixtures =
     "time": "04:00",
     "ts": "2026-07-01T01:00Z",
     "home_team": "A1",
-    "away_team": "CFH3",
+    "away_team": "CEFHI3",
     "city": "Mexico City",
     "venue": "Estadio Azteca"
   },
@@ -1676,7 +1676,7 @@ export const fixtures =
     "time": "19:00",
     "ts": "2026-07-01T16:00Z",
     "home_team": "L1",
-    "away_team": "EH1",
+    "away_team": "EHIJK3",
     "city": "Atlanta",
     "venue": "Mercedes-Benz Stadium"
   },
@@ -1736,7 +1736,7 @@ export const fixtures =
     "time": "06:00",
     "ts": "2026-07-03T03:00Z",
     "home_team": "B1",
-    "away_team": "EF3",
+    "away_team": "EFGIJ3",
     "city": "Vancouver",
     "venue": "BC Place"
   },
@@ -1760,7 +1760,7 @@ export const fixtures =
     "time": "04:30",
     "ts": "2026-07-04T01:30Z",
     "home_team": "K1",
-    "away_team": "DEJ3",
+    "away_team": "DEIJL3",
     "city": "Kansas City",
     "venue": "Arrowhead Stadium"
   },

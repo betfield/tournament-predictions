@@ -7,7 +7,7 @@
   },
   {
     "name_eng": "South Korea",
-    "name": "Lõuna-Korea",
+    "name": "L-Korea",
     "code": "kor",
     "group": "A"
   },
@@ -19,7 +19,7 @@
   },
   {
     "name_eng": "USA",
-    "name": "Ameerika Ühendriigid",
+    "name": "USA",
     "code": "usa",
     "group": "D"
   },
@@ -139,7 +139,7 @@
   },
   {
     "name_eng": "South Africa",
-    "name": "Lõuna-Aafrika Vabariik",
+    "name": "LAV",
     "code": "zaf",
     "group": "A"
   },
@@ -151,7 +151,7 @@
   },
   {
     "name_eng": "Bosnia & Herzegovina",
-    "name": "Bosnia ja Hertsegoviina",
+    "name": "Bosnia & Herts.",
     "code": "bih",
     "group": "B"
   },
@@ -259,7 +259,7 @@
   },
   {
     "name_eng": "Congo DR",
-    "name": "Kongo Demokraatlik Vabariik",
+    "name": "Kongo DV",
     "code": "cod",
     "group": "K"
   },

@@ -280,5 +280,11 @@
     "name": "Colombia",
     "code": "col",
     "group": "K"
+  },
+  {
+    "name_eng": "Uzbekistan",
+    "name": "Usbekistan",
+    "code": "uzb",
+    "group": "K"
   }
 ]

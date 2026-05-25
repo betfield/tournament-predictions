@@ -27,7 +27,7 @@ export const fixtures =
     "group": "A",
     "round": "1",
     "date": "12. juuni",
-    "time": "5:00",
+    "time": "05:00",
     "ts": "2026-06-12T02:00Z",
     "home_team": {
       "name_eng": "South Korea",
@@ -71,7 +71,7 @@ export const fixtures =
     "group": "D",
     "round": "1",
     "date": "13. juuni",
-    "time": "4:00",
+    "time": "04:00",
     "ts": "2026-06-13T01:00Z",
     "home_team": {
       "name_eng": "USA",
@@ -115,7 +115,7 @@ export const fixtures =
     "group": "C",
     "round": "1",
     "date": "14. juuni",
-    "time": "1:00",
+    "time": "01:00",
     "ts": "2026-06-13T22:00Z",
     "home_team": {
       "name_eng": "Brazil",
@@ -137,7 +137,7 @@ export const fixtures =
     "group": "C",
     "round": "1",
     "date": "14. juuni",
-    "time": "4:00",
+    "time": "04:00",
     "ts": "2026-06-14T01:00Z",
     "home_team": {
       "name_eng": "Haiti",
@@ -159,7 +159,7 @@ export const fixtures =
     "group": "D",
     "round": "1",
     "date": "14. juuni",
-    "time": "7:00",
+    "time": "07:00",
     "ts": "2026-06-14T04:00Z",
     "home_team": {
       "name_eng": "Australia",
@@ -225,7 +225,7 @@ export const fixtures =
     "group": "E",
     "round": "1",
     "date": "15. juuni",
-    "time": "2:00",
+    "time": "02:00",
     "ts": "2026-06-14T23:00Z",
     "home_team": {
       "name_eng": "Côte d'Ivoire",
@@ -247,7 +247,7 @@ export const fixtures =
     "group": "F",
     "round": "1",
     "date": "15. juuni",
-    "time": "5:00",
+    "time": "05:00",
     "ts": "2026-06-15T02:00Z",
     "home_team": {
       "name_eng": "Sweden",
@@ -313,7 +313,7 @@ export const fixtures =
     "group": "H",
     "round": "1",
     "date": "16. juuni",
-    "time": "1:00",
+    "time": "01:00",
     "ts": "2026-06-15T22:00Z",
     "home_team": {
       "name_eng": "Saudi Arabia",
@@ -335,7 +335,7 @@ export const fixtures =
     "group": "G",
     "round": "1",
     "date": "16. juuni",
-    "time": "4:00",
+    "time": "04:00",
     "ts": "2026-06-16T01:00Z",
     "home_team": {
       "name_eng": "Iran",
@@ -379,7 +379,7 @@ export const fixtures =
     "group": "I",
     "round": "1",
     "date": "17. juuni",
-    "time": "1:00",
+    "time": "01:00",
     "ts": "2026-06-16T22:00Z",
     "home_team": {
       "name_eng": "Iraq",
@@ -401,7 +401,7 @@ export const fixtures =
     "group": "J",
     "round": "1",
     "date": "17. juuni",
-    "time": "4:00",
+    "time": "04:00",
     "ts": "2026-06-17T01:00Z",
     "home_team": {
       "name_eng": "Argentina",
@@ -423,7 +423,7 @@ export const fixtures =
     "group": "J",
     "round": "1",
     "date": "17. juuni",
-    "time": "7:00",
+    "time": "07:00",
     "ts": "2026-06-17T04:00Z",
     "home_team": {
       "name_eng": "Austria",
@@ -489,7 +489,7 @@ export const fixtures =
     "group": "L",
     "round": "1",
     "date": "18. juuni",
-    "time": "2:00",
+    "time": "02:00",
     "ts": "2026-06-17T23:00Z",
     "home_team": {
       "name_eng": "Ghana",
@@ -511,7 +511,7 @@ export const fixtures =
     "group": "K",
     "round": "1",
     "date": "18. juuni",
-    "time": "5:00",
+    "time": "05:00",
     "ts": "2026-06-18T02:00Z",
     "home_team": {
       "name_eng": "Uzbekistan",
@@ -577,7 +577,7 @@ export const fixtures =
     "group": "B",
     "round": "2",
     "date": "19. juuni",
-    "time": "1:00",
+    "time": "01:00",
     "ts": "2026-06-18T22:00Z",
     "home_team": {
       "name_eng": "Canada",
@@ -599,7 +599,7 @@ export const fixtures =
     "group": "A",
     "round": "2",
     "date": "19. juuni",
-    "time": "4:00",
+    "time": "04:00",
     "ts": "2026-06-19T01:00Z",
     "home_team": {
       "name_eng": "Mexico",
@@ -643,7 +643,7 @@ export const fixtures =
     "group": "C",
     "round": "2",
     "date": "20. juuni",
-    "time": "1:00",
+    "time": "01:00",
     "ts": "2026-06-19T22:00Z",
     "home_team": {
       "name_eng": "Scotland",
@@ -665,7 +665,7 @@ export const fixtures =
     "group": "C",
     "round": "2",
     "date": "20. juuni",
-    "time": "3:30",
+    "time": "03:30",
     "ts": "2026-06-20T00:30Z",
     "home_team": {
       "name_eng": "Brazil",
@@ -687,7 +687,7 @@ export const fixtures =
     "group": "D",
     "round": "2",
     "date": "20. juuni",
-    "time": "6:00",
+    "time": "06:00",
     "ts": "2026-06-20T03:00Z",
     "home_team": {
       "name_eng": "Türkiye",
@@ -753,7 +753,7 @@ export const fixtures =
     "group": "E",
     "round": "2",
     "date": "21. juuni",
-    "time": "3:00",
+    "time": "03:00",
     "ts": "2026-06-21T00:00Z",
     "home_team": {
       "name_eng": "Ecuador",
@@ -775,7 +775,7 @@ export const fixtures =
     "group": "F",
     "round": "2",
     "date": "21. juuni",
-    "time": "7:00",
+    "time": "07:00",
     "ts": "2026-06-21T04:00Z",
     "home_team": {
       "name_eng": "Tunisia",
@@ -841,7 +841,7 @@ export const fixtures =
     "group": "H",
     "round": "2",
     "date": "22. juuni",
-    "time": "1:00",
+    "time": "01:00",
     "ts": "2026-06-21T22:00Z",
     "home_team": {
       "name_eng": "Uruguay",
@@ -863,7 +863,7 @@ export const fixtures =
     "group": "G",
     "round": "2",
     "date": "22. juuni",
-    "time": "4:00",
+    "time": "04:00",
     "ts": "2026-06-22T01:00Z",
     "home_team": {
       "name_eng": "New Zealand",
@@ -1259,7 +1259,7 @@ export const fixtures =
     "group": "F",
     "round": "3",
     "date": "26. juuni",
-    "time": "2:00",
+    "time": "02:00",
     "ts": "2026-06-25T23:00Z",
     "home_team": {
       "name_eng": "Sweden",
@@ -1391,7 +1391,7 @@ export const fixtures =
     "group": "H",
     "round": "3",
     "date": "27. juuni",
-    "time": "3:00",
+    "time": "03:00",
     "ts": "2026-06-27T00:00Z",
     "home_team": {
       "name_eng": "Cabo Verde",
@@ -1413,7 +1413,7 @@ export const fixtures =
     "group": "G",
     "round": "3",
     "date": "27. juuni",
-    "time": "6:00",
+    "time": "06:00",
     "ts": "2026-06-27T03:00Z",
     "home_team": {
       "name_eng": "Egypt",
@@ -1435,7 +1435,7 @@ export const fixtures =
     "group": "G",
     "round": "3",
     "date": "27. juuni",
-    "time": "6:00",
+    "time": "06:00",
     "ts": "2026-06-27T03:00Z",
     "home_team": {
       "name_eng": "New Zealand",
@@ -1457,7 +1457,7 @@ export const fixtures =
     "group": "L",
     "round": "3",
     "date": "28. juuni",
-    "time": "0:00",
+    "time": "00:00",
     "ts": "2026-06-27T21:00Z",
     "home_team": {
       "name_eng": "Panama",
@@ -1479,7 +1479,7 @@ export const fixtures =
     "group": "L",
     "round": "3",
     "date": "28. juuni",
-    "time": "0:00",
+    "time": "00:00",
     "ts": "2026-06-27T21:00Z",
     "home_team": {
       "name_eng": "Croatia",

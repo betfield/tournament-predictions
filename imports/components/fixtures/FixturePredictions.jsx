@@ -85,6 +85,8 @@ export default class FixturesPredictions extends Component {
 
     getFixtureDetails = (f) => {
 
+        Meteor.call("clientLog", "Get fixture details for fixture " + f._id + ". " + f.home_team.name + " - " + f.away_team.name + ". Locked status: " + f.locked, Meteor.userId());
+        
         if (!f.locked) {
             Bert.alert( 'Ennustusvoor veel avatud. Kasutajate ennustused pole kättesaadavad', 'danger' );
         }
@@ -381,7 +383,6 @@ export default class FixturesPredictions extends Component {
                 
                 // If stats parameter defined in URL then display statistics for selected fixture
                 if (this.props.stats) {
-                    console.log("Stats true");
                     data = this.formatStatsData(this.formatPredictionsData(this.props.predictions));
                     key = 'result';
 

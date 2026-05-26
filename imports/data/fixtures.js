@@ -3,7 +3,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "A",
-    "round": "1",
+    "round": 1,
     "date": "11. juuni",
     "time": "22:00",
     "ts": "2026-06-11T19:00Z",
@@ -25,7 +25,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "A",
-    "round": "1",
+    "round": 1,
     "date": "12. juuni",
     "time": "05:00",
     "ts": "2026-06-12T02:00Z",
@@ -47,7 +47,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "B",
-    "round": "1",
+    "round": 1,
     "date": "12. juuni",
     "time": "22:00",
     "ts": "2026-06-12T19:00Z",
@@ -69,7 +69,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "D",
-    "round": "1",
+    "round": 1,
     "date": "13. juuni",
     "time": "04:00",
     "ts": "2026-06-13T01:00Z",
@@ -91,7 +91,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "B",
-    "round": "1",
+    "round": 1,
     "date": "13. juuni",
     "time": "22:00",
     "ts": "2026-06-13T19:00Z",
@@ -113,7 +113,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "C",
-    "round": "1",
+    "round": 1,
     "date": "14. juuni",
     "time": "01:00",
     "ts": "2026-06-13T22:00Z",
@@ -135,7 +135,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "C",
-    "round": "1",
+    "round": 1,
     "date": "14. juuni",
     "time": "04:00",
     "ts": "2026-06-14T01:00Z",
@@ -157,7 +157,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "D",
-    "round": "1",
+    "round": 1,
     "date": "14. juuni",
     "time": "07:00",
     "ts": "2026-06-14T04:00Z",
@@ -179,7 +179,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "E",
-    "round": "1",
+    "round": 1,
     "date": "14. juuni",
     "time": "20:00",
     "ts": "2026-06-14T17:00Z",
@@ -201,7 +201,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "F",
-    "round": "1",
+    "round": 1,
     "date": "14. juuni",
     "time": "23:00",
     "ts": "2026-06-14T20:00Z",
@@ -223,7 +223,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "E",
-    "round": "1",
+    "round": 1,
     "date": "15. juuni",
     "time": "02:00",
     "ts": "2026-06-14T23:00Z",
@@ -245,7 +245,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "F",
-    "round": "1",
+    "round": 1,
     "date": "15. juuni",
     "time": "05:00",
     "ts": "2026-06-15T02:00Z",
@@ -267,7 +267,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "H",
-    "round": "1",
+    "round": 1,
     "date": "15. juuni",
     "time": "19:00",
     "ts": "2026-06-15T16:00Z",
@@ -289,7 +289,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "G",
-    "round": "1",
+    "round": 1,
     "date": "15. juuni",
     "time": "22:00",
     "ts": "2026-06-15T19:00Z",
@@ -311,7 +311,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "H",
-    "round": "1",
+    "round": 1,
     "date": "16. juuni",
     "time": "01:00",
     "ts": "2026-06-15T22:00Z",
@@ -333,7 +333,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "G",
-    "round": "1",
+    "round": 1,
     "date": "16. juuni",
     "time": "04:00",
     "ts": "2026-06-16T01:00Z",
@@ -355,7 +355,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "I",
-    "round": "1",
+    "round": 1,
     "date": "16. juuni",
     "time": "22:00",
     "ts": "2026-06-16T19:00Z",
@@ -377,7 +377,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "I",
-    "round": "1",
+    "round": 1,
     "date": "17. juuni",
     "time": "01:00",
     "ts": "2026-06-16T22:00Z",
@@ -399,7 +399,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "J",
-    "round": "1",
+    "round": 1,
     "date": "17. juuni",
     "time": "04:00",
     "ts": "2026-06-17T01:00Z",
@@ -421,7 +421,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "J",
-    "round": "1",
+    "round": 1,
     "date": "17. juuni",
     "time": "07:00",
     "ts": "2026-06-17T04:00Z",
@@ -443,7 +443,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "K",
-    "round": "1",
+    "round": 1,
     "date": "17. juuni",
     "time": "20:00",
     "ts": "2026-06-17T17:00Z",
@@ -465,7 +465,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "L",
-    "round": "1",
+    "round": 1,
     "date": "17. juuni",
     "time": "23:00",
     "ts": "2026-06-17T20:00Z",
@@ -487,7 +487,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "L",
-    "round": "1",
+    "round": 1,
     "date": "18. juuni",
     "time": "02:00",
     "ts": "2026-06-17T23:00Z",
@@ -509,7 +509,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "K",
-    "round": "1",
+    "round": 1,
     "date": "18. juuni",
     "time": "05:00",
     "ts": "2026-06-18T02:00Z",
@@ -531,7 +531,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "A",
-    "round": "2",
+    "round": 2,
     "date": "18. juuni",
     "time": "19:00",
     "ts": "2026-06-18T16:00Z",
@@ -553,7 +553,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "B",
-    "round": "2",
+    "round": 2,
     "date": "18. juuni",
     "time": "22:00",
     "ts": "2026-06-18T19:00Z",
@@ -575,7 +575,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "B",
-    "round": "2",
+    "round": 2,
     "date": "19. juuni",
     "time": "01:00",
     "ts": "2026-06-18T22:00Z",
@@ -597,7 +597,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "A",
-    "round": "2",
+    "round": 2,
     "date": "19. juuni",
     "time": "04:00",
     "ts": "2026-06-19T01:00Z",
@@ -619,7 +619,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "D",
-    "round": "2",
+    "round": 2,
     "date": "19. juuni",
     "time": "22:00",
     "ts": "2026-06-19T19:00Z",
@@ -641,7 +641,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "C",
-    "round": "2",
+    "round": 2,
     "date": "20. juuni",
     "time": "01:00",
     "ts": "2026-06-19T22:00Z",
@@ -663,7 +663,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "C",
-    "round": "2",
+    "round": 2,
     "date": "20. juuni",
     "time": "03:30",
     "ts": "2026-06-20T00:30Z",
@@ -685,7 +685,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "D",
-    "round": "2",
+    "round": 2,
     "date": "20. juuni",
     "time": "06:00",
     "ts": "2026-06-20T03:00Z",
@@ -707,7 +707,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "F",
-    "round": "2",
+    "round": 2,
     "date": "20. juuni",
     "time": "20:00",
     "ts": "2026-06-20T17:00Z",
@@ -729,7 +729,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "E",
-    "round": "2",
+    "round": 2,
     "date": "20. juuni",
     "time": "23:00",
     "ts": "2026-06-20T20:00Z",
@@ -751,7 +751,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "E",
-    "round": "2",
+    "round": 2,
     "date": "21. juuni",
     "time": "03:00",
     "ts": "2026-06-21T00:00Z",
@@ -773,7 +773,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "F",
-    "round": "2",
+    "round": 2,
     "date": "21. juuni",
     "time": "07:00",
     "ts": "2026-06-21T04:00Z",
@@ -795,7 +795,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "H",
-    "round": "2",
+    "round": 2,
     "date": "21. juuni",
     "time": "19:00",
     "ts": "2026-06-21T16:00Z",
@@ -817,7 +817,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "G",
-    "round": "2",
+    "round": 2,
     "date": "21. juuni",
     "time": "22:00",
     "ts": "2026-06-21T19:00Z",
@@ -839,7 +839,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "H",
-    "round": "2",
+    "round": 2,
     "date": "22. juuni",
     "time": "01:00",
     "ts": "2026-06-21T22:00Z",
@@ -861,7 +861,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "G",
-    "round": "2",
+    "round": 2,
     "date": "22. juuni",
     "time": "04:00",
     "ts": "2026-06-22T01:00Z",
@@ -883,7 +883,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "I",
-    "round": "2",
+    "round": 2,
     "date": "23. juuni",
     "time": "03:00",
     "ts": "2026-06-23T00:00Z",
@@ -905,7 +905,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "I",
-    "round": "2",
+    "round": 2,
     "date": "23. juuni",
     "time": "00:00",
     "ts": "2026-06-22T21:00Z",
@@ -927,7 +927,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "J",
-    "round": "2",
+    "round": 2,
     "date": "22. juuni",
     "time": "20:00",
     "ts": "2026-06-22T17:00Z",
@@ -949,7 +949,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "J",
-    "round": "2",
+    "round": 2,
     "date": "23. juuni",
     "time": "06:00",
     "ts": "2026-06-23T03:00Z",
@@ -971,7 +971,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "K",
-    "round": "2",
+    "round": 2,
     "date": "23. juuni",
     "time": "20:00",
     "ts": "2026-06-23T17:00Z",
@@ -993,7 +993,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "K",
-    "round": "2",
+    "round": 2,
     "date": "24. juuni",
     "time": "05:00",
     "ts": "2026-06-24T02:00Z",
@@ -1015,7 +1015,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "L",
-    "round": "2",
+    "round": 2,
     "date": "23. juuni",
     "time": "23:00",
     "ts": "2026-06-23T20:00Z",
@@ -1037,7 +1037,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "L",
-    "round": "2",
+    "round": 2,
     "date": "24. juuni",
     "time": "02:00",
     "ts": "2026-06-23T23:00Z",
@@ -1059,7 +1059,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "C",
-    "round": "3",
+    "round": 3,
     "date": "25. juuni",
     "time": "01:00",
     "ts": "2026-06-24T22:00Z",
@@ -1081,7 +1081,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "C",
-    "round": "3",
+    "round": 3,
     "date": "25. juuni",
     "time": "01:00",
     "ts": "2026-06-24T22:00Z",
@@ -1103,7 +1103,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "A",
-    "round": "3",
+    "round": 3,
     "date": "25. juuni",
     "time": "04:00",
     "ts": "2026-06-25T01:00Z",
@@ -1125,7 +1125,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "A",
-    "round": "3",
+    "round": 3,
     "date": "25. juuni",
     "time": "04:00",
     "ts": "2026-06-25T01:00Z",
@@ -1147,7 +1147,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "B",
-    "round": "3",
+    "round": 3,
     "date": "24. juuni",
     "time": "22:00",
     "ts": "2026-06-24T19:00Z",
@@ -1169,7 +1169,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "B",
-    "round": "3",
+    "round": 3,
     "date": "24. juuni",
     "time": "22:00",
     "ts": "2026-06-24T19:00Z",
@@ -1191,7 +1191,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "E",
-    "round": "3",
+    "round": 3,
     "date": "25. juuni",
     "time": "23:00",
     "ts": "2026-06-25T20:00Z",
@@ -1213,7 +1213,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "E",
-    "round": "3",
+    "round": 3,
     "date": "25. juuni",
     "time": "23:00",
     "ts": "2026-06-25T20:00Z",
@@ -1235,7 +1235,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "F",
-    "round": "3",
+    "round": 3,
     "date": "26. juuni",
     "time": "02:00",
     "ts": "2026-06-25T23:00Z",
@@ -1257,7 +1257,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "F",
-    "round": "3",
+    "round": 3,
     "date": "26. juuni",
     "time": "02:00",
     "ts": "2026-06-25T23:00Z",
@@ -1279,7 +1279,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "D",
-    "round": "3",
+    "round": 3,
     "date": "26. juuni",
     "time": "05:00",
     "ts": "2026-06-26T02:00Z",
@@ -1301,7 +1301,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "D",
-    "round": "3",
+    "round": 3,
     "date": "26. juuni",
     "time": "05:00",
     "ts": "2026-06-26T02:00Z",
@@ -1323,7 +1323,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "I",
-    "round": "3",
+    "round": 3,
     "date": "26. juuni",
     "time": "22:00",
     "ts": "2026-06-26T19:00Z",
@@ -1345,7 +1345,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "I",
-    "round": "3",
+    "round": 3,
     "date": "26. juuni",
     "time": "22:00",
     "ts": "2026-06-26T19:00Z",
@@ -1367,7 +1367,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "H",
-    "round": "3",
+    "round": 3,
     "date": "27. juuni",
     "time": "03:00",
     "ts": "2026-06-27T00:00Z",
@@ -1389,7 +1389,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "H",
-    "round": "3",
+    "round": 3,
     "date": "27. juuni",
     "time": "03:00",
     "ts": "2026-06-27T00:00Z",
@@ -1411,7 +1411,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "G",
-    "round": "3",
+    "round": 3,
     "date": "27. juuni",
     "time": "06:00",
     "ts": "2026-06-27T03:00Z",
@@ -1433,7 +1433,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "G",
-    "round": "3",
+    "round": 3,
     "date": "27. juuni",
     "time": "06:00",
     "ts": "2026-06-27T03:00Z",
@@ -1455,7 +1455,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "L",
-    "round": "3",
+    "round": 3,
     "date": "28. juuni",
     "time": "00:00",
     "ts": "2026-06-27T21:00Z",
@@ -1477,7 +1477,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "L",
-    "round": "3",
+    "round": 3,
     "date": "28. juuni",
     "time": "00:00",
     "ts": "2026-06-27T21:00Z",
@@ -1499,7 +1499,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "J",
-    "round": "3",
+    "round": 3,
     "date": "28. juuni",
     "time": "05:00",
     "ts": "2026-06-28T02:00Z",
@@ -1521,7 +1521,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "J",
-    "round": "3",
+    "round": 3,
     "date": "28. juuni",
     "time": "05:00",
     "ts": "2026-06-28T02:00Z",
@@ -1543,7 +1543,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "K",
-    "round": "3",
+    "round": 3,
     "date": "28. juuni",
     "time": "02:30",
     "ts": "2026-06-27T23:30Z",
@@ -1565,7 +1565,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "K",
-    "round": "3",
+    "round": 3,
     "date": "28. juuni",
     "time": "02:30",
     "ts": "2026-06-27T23:30Z",
@@ -1587,7 +1587,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "L32",
-    "round": "4",
+    "round": 4,
     "date": "28. juuni",
     "time": "22:00",
     "ts": "2026-06-28T19:00Z",
@@ -1599,7 +1599,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "L32",
-    "round": "4",
+    "round": 4,
     "date": "29. juuni",
     "time": "23:30",
     "ts": "2026-06-29T20:30Z",
@@ -1611,7 +1611,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "L32",
-    "round": "4",
+    "round": 4,
     "date": "30. juuni",
     "time": "04:00",
     "ts": "2026-06-30T01:00Z",
@@ -1623,7 +1623,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "L32",
-    "round": "4",
+    "round": 4,
     "date": "29. juuni",
     "time": "20:00",
     "ts": "2026-06-29T17:00Z",
@@ -1635,7 +1635,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "L32",
-    "round": "4",
+    "round": 4,
     "date": "01. juuli",
     "time": "00:00",
     "ts": "2026-06-30T21:00Z",
@@ -1647,7 +1647,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "L32",
-    "round": "4",
+    "round": 4,
     "date": "30. juuni",
     "time": "20:00",
     "ts": "2026-06-30T17:00Z",
@@ -1659,7 +1659,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "L32",
-    "round": "4",
+    "round": 4,
     "date": "1. juuli",
     "time": "04:00",
     "ts": "2026-07-01T01:00Z",
@@ -1671,7 +1671,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "L32",
-    "round": "4",
+    "round": 4,
     "date": "1. juuli",
     "time": "19:00",
     "ts": "2026-07-01T16:00Z",
@@ -1683,7 +1683,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "L32",
-    "round": "4",
+    "round": 4,
     "date": "2. juuli",
     "time": "03:00",
     "ts": "2026-07-02T00:00Z",
@@ -1695,7 +1695,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "L32",
-    "round": "4",
+    "round": 4,
     "date": "1. juuli",
     "time": "23:00",
     "ts": "2026-07-01T20:00Z",
@@ -1707,7 +1707,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "L32",
-    "round": "4",
+    "round": 4,
     "date": "3. juuli",
     "time": "02:00",
     "ts": "2026-07-02T23:00Z",
@@ -1719,7 +1719,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "L32",
-    "round": "4",
+    "round": 4,
     "date": "2. juuli",
     "time": "22:00",
     "ts": "2026-07-02T19:00Z",
@@ -1731,7 +1731,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "L32",
-    "round": "4",
+    "round": 4,
     "date": "3. juuli",
     "time": "06:00",
     "ts": "2026-07-03T03:00Z",
@@ -1743,7 +1743,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "L32",
-    "round": "4",
+    "round": 4,
     "date": "4. juuli",
     "time": "01:00",
     "ts": "2026-07-03T22:00Z",
@@ -1755,7 +1755,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "L32",
-    "round": "4",
+    "round": 4,
     "date": "4. juuli",
     "time": "04:30",
     "ts": "2026-07-04T01:30Z",
@@ -1767,7 +1767,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "L32",
-    "round": "4",
+    "round": 4,
     "date": "3. juuli",
     "time": "21:00",
     "ts": "2026-07-03T18:00Z",
@@ -1779,7 +1779,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "L16",
-    "round": "5",
+    "round": 5,
     "date": "5. juuli",
     "time": "00:00",
     "ts": "2026-07-04T21:00Z",
@@ -1791,7 +1791,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "L16",
-    "round": "5",
+    "round": 5,
     "date": "4. juuli",
     "time": "20:00",
     "ts": "2026-07-04T17:00Z",
@@ -1803,7 +1803,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "L16",
-    "round": "5",
+    "round": 5,
     "date": "5. juuli",
     "time": "23:00",
     "ts": "2026-07-05T20:00Z",
@@ -1815,7 +1815,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "L16",
-    "round": "5",
+    "round": 5,
     "date": "6. juuli",
     "time": "03:00",
     "ts": "2026-07-06T00:00Z",
@@ -1827,7 +1827,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "L16",
-    "round": "5",
+    "round": 5,
     "date": "6. juuli",
     "time": "22:00",
     "ts": "2026-07-06T19:00Z",
@@ -1839,7 +1839,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "L16",
-    "round": "5",
+    "round": 5,
     "date": "7. juuli",
     "time": "03:00",
     "ts": "2026-07-07T00:00Z",
@@ -1851,7 +1851,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "L16",
-    "round": "5",
+    "round": 5,
     "date": "7. juuli",
     "time": "19:00",
     "ts": "2026-07-07T16:00Z",
@@ -1863,7 +1863,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "L16",
-    "round": "5",
+    "round": 5,
     "date": "7. juuli",
     "time": "23:00",
     "ts": "2026-07-07T20:00Z",
@@ -1875,7 +1875,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "QF",
-    "round": "6",
+    "round": 6,
     "date": "9. juuli",
     "time": "23:00",
     "ts": "2026-07-09T20:00Z",
@@ -1887,7 +1887,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "QF",
-    "round": "6",
+    "round": 6,
     "date": "10. juuli",
     "time": "22:00",
     "ts": "2026-07-10T19:00Z",
@@ -1899,7 +1899,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "QF",
-    "round": "6",
+    "round": 6,
     "date": "12. juuli",
     "time": "00:00",
     "ts": "2026-07-11T21:00Z",
@@ -1911,7 +1911,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "QF",
-    "round": "6",
+    "round": 6,
     "date": "12. juuli",
     "time": "04:00",
     "ts": "2026-07-12T01:00Z",
@@ -1923,7 +1923,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "SF",
-    "round": "7",
+    "round": 7,
     "date": "14. juuli",
     "time": "22:00",
     "ts": "2026-07-14T18:00Z",
@@ -1935,7 +1935,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "SF",
-    "round": "7",
+    "round": 7,
     "date": "15. juuli",
     "time": "22:00",
     "ts": "2026-07-15T19:00Z",
@@ -1947,7 +1947,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "FI",
-    "round": "8",
+    "round": 8,
     "date": "19. juuli",
     "time": "00:00",
     "ts": "2026-07-18T21:00Z",
@@ -1959,7 +1959,7 @@ export const fixtures =
   {
     "competition": "wc2026",
     "group": "FI",
-    "round": "8",
+    "round": 8,
     "date": "19. juuli",
     "time": "22:00",
     "ts": "2026-07-19T19:00Z",

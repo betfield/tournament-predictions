@@ -3,14 +3,14 @@
 		"env": "Sandbox",
 		"FOLDER_FLAGS": "/images/flags/",
 		"INVALID_TEST_TIME": "",
-		"RESULT_USER_ID": "Jt6K9yxh8Z23HZwYN"
+		"RESULT_USER_ID": ""
 	},
 	"private": {
 		"BF_EMAIL": "betfieldou@gmail.com",
-		"REGISTER_END": "2026-06-11T17:00:00Z",
+		"REGISTER_END": "2026-05-26T18:35:00Z",
 		"ROUND_END_DATES": [
-			{"ts": "2026-06-11T18:00:00Z", "round": 1}, 
-			{"ts": "2026-06-18T15:00:00Z", "round": 2},
+			{"ts": "2026-05-26T18:40:00Z", "round": 1}, 
+			{"ts": "2026-05-27T15:00:00Z", "round": 2},
 			{"ts": "2026-06-24T18:00:00Z", "round": 3},
 			{"ts": "2026-06-28T18:00:00Z", "round": 4},
 			{"ts": "2026-07-04T16:00:00Z", "round": 5},

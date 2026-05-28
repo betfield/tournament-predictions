@@ -146,11 +146,14 @@ export default class UserRoundPredictions extends Component {
 
     vsFormatter = (cell, row) => {
         return (
-            <span className="bf-table-vs">
-                <img src={cell.homeFlag}/>
-                <span> vs </span>
-                <img src={cell.awayFlag}/>
-            </span>
+            
+            <Link to={"/fixtures/" + cell.id}>
+                <span className="bf-table-vs">
+                    <img src={cell.homeFlag}/>
+                    <span> vs </span>
+                    <img src={cell.awayFlag}/>
+                </span>
+            </Link>
         );
     }
 
@@ -173,26 +176,28 @@ export default class UserRoundPredictions extends Component {
         
         if (row.locked) {
             return (
-                <div className="bf-table-score">
-                    <input id="fixture-id" type="hidden" value={cell.id}/>
-                    <div className="bf-table-small-result">
-                        <div className="bf-table-small col-xs-4">
-                            <img src={vs.homeFlag}/>
-                            <br/>
-                            <span>{row.homeTeam}</span>
-                        </div>
-                        <div className="bf-table-small-result col-xs-4">
-                            <span className="bf-table-score">
-                                {cell.homeGoals} : {cell.awayGoals} {"(" + (row.status==="FT" ? cell.userPoints + "p" : "-") + ")"}
-                            </span>
-                        </div>
-                        <div className="bf-table-small col-xs-4">
-                            <img src={vs.awayFlag}/>
-                            <br/>
-                            <span>{row.awayTeam}</span>
+                <Link to={"/fixtures/" + cell.id}>
+                    <div className="bf-table-score">
+                        <input id="fixture-id" type="hidden" value={cell.id}/>
+                        <div className="bf-table-small-result">
+                            <div className="bf-table-small col-xs-4">
+                                <img src={vs.homeFlag}/>
+                                <br/>
+                                <span>{row.homeTeam}</span>
+                            </div>
+                            <div className="bf-table-small-result col-xs-4">
+                                <span className="bf-table-score">
+                                    {cell.homeGoals} : {cell.awayGoals} {"(" + (row.status==="FT" ? cell.userPoints + "p" : "-") + ")"}
+                                </span>
+                            </div>
+                            <div className="bf-table-small col-xs-4">
+                                <img src={vs.awayFlag}/>
+                                <br/>
+                                <span>{row.awayTeam}</span>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </Link>
             );
         }
     }

@@ -121,11 +121,19 @@ export default class FixturesPredictions extends Component {
                 <tbody>
                     <tr>
                         <td>
-                            <span className="bf-table-vs">
-                                <img src={fixture.homeFlag}/>
-                                <span> vs </span>
-                                <img src={fixture.awayFlag}/>
-                            </span>
+                            <div className="bf-table-small-result">
+                                <div className="bf-table-vs col-xs-4">
+                                    <img src={fixture.homeFlag}/>
+                                    <br/>
+                                    <span>{fixture.homeTeam}</span>
+                                </div>
+                                <div className="bf-table-mid col-xs-4"> vs </div>
+                                <div className="bf-table-vs col-xs-4">
+                                    <img src={fixture.awayFlag}/>
+                                    <br/>
+                                    <span>{fixture.awayTeam}</span>
+                                </div>
+                            </div>
                         </td>
                         <td>
                             <span className="bf-table-score">
@@ -190,7 +198,7 @@ export default class FixturesPredictions extends Component {
                 <tbody>
                     <tr>
                         <td>
-                            <span className="bf-table-vs">
+                            <span className="bf-table-vs-fxt">
                                 <img src={fixture.homeFlag}/>
                                 <span> vs </span>
                                 <img src={fixture.awayFlag}/>

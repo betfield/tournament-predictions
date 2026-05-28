@@ -68,7 +68,7 @@ export default class UserPointsTable extends Component {
             }
         ];
         
-        if ($(window).width() < 769) {
+        if ($(window).width() < 916) {
             columnHeaders[1].sort = false; 
             columnHeaders[2].sort = false;
             columnHeaders[3].hidden = true;

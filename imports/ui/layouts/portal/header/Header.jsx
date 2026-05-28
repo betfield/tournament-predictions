@@ -11,7 +11,7 @@ export default class Header extends Component {
     }
 
     componentDidMount() {
-        if ($(window).width() < 769) {
+        if ($(window).width() < 916) {
             $("body").addClass("hide-sidebar"); 
         } else {
             $("body").removeClass("hide-sidebar");

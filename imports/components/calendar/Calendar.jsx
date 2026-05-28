@@ -67,7 +67,7 @@ export default class Calendar extends Component {
 			const firstFixtureDate = calendar_fixtures[0];
 			let defaultView = 'agendaWeek';
 
-			if ($(window).width() < 769) {
+			if ($(window).width() < 916) {
 				defaultView = 'agendaDay';
 			}
 

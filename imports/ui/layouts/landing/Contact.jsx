@@ -9,7 +9,7 @@ export default class Contact extends Component {
         const message = ReactDOM.findDOMNode(this.refs.message).value.trim();
 
         Meteor.call('sendEmail',
-                    'info@fctwister.ee',
+                    'fctwister@nr8.ee',
                     null,
                     name,
                     message,

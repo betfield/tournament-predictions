@@ -93,7 +93,7 @@ Meteor.methods({
 sendRoundLockedMail = (closedRound, nextDate) => {
 	// Get all registered users
 	const users = Roles.getUsersInRole('Aktiveeritud').fetch();
-	const to = 'FC Twister Admin <admin@fctwister.ee>';
+	const to = 'FC Twister Admin <fctwister@nr8.ee>';
 	const subject = 'Ennustusvoor suletud';
 	let text = decimalToRoman(closedRound) + ' ennustusvoor on nüüd suletud.';
 	
